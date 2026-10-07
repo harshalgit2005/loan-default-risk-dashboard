@@ -2,7 +2,7 @@
 
 > **Which borrower segments have the highest default risk, and which pending applications should the credit team review first?**
 
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](docs/dashboard.jpeg)
 
 **Domain:** BFSI — Banking, Financial Services & Insurance
 **Tools:** SQL, Power BI, DAX, Python
