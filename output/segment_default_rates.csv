@@ -1,0 +1,45 @@
+dimension,segment,loans,defaults,default_rate_pct,risk_lift,defaulted_amount
+City Tier,Tier 1,13327,1167,8.76,0.95,788950000
+City Tier,Tier 2,7885,774,9.82,1.06,447185000
+City Tier,Tier 3,782,92,11.76,1.27,47240000
+Credit Band,1. < 600 (Poor),896,306,34.15,3.69,143215000
+Credit Band,2. 600-679 (Fair),5706,909,15.93,1.72,566840000
+Credit Band,3. 680-749 (Good),8926,609,6.82,0.74,395820000
+Credit Band,4. 750+ (Excellent),6466,209,3.23,0.35,177500000
+DTI Band,1. < 30%,7762,486,6.26,0.68,159545000
+DTI Band,2. 30-45%,6753,546,8.09,0.87,332280000
+DTI Band,3. 45-60%,4471,493,11.03,1.19,315215000
+DTI Band,4. 60%+,3008,508,16.89,1.83,476335000
+Employment History,1. < 2 yrs,6739,893,13.25,1.43,522915000
+Employment History,2. 2-5 yrs,4920,440,8.94,0.97,331355000
+Employment History,3. 5-10 yrs,4991,332,6.65,0.72,187240000
+Employment History,4. 10+ yrs,5344,368,6.89,0.74,241865000
+Employment Type,Gig/Contract,2670,478,17.9,1.94,189755000
+Employment Type,Salaried - Govt,2574,131,5.09,0.55,88085000
+Employment Type,Salaried - Private,10992,861,7.83,0.85,602190000
+Employment Type,Self-Employed,5758,563,9.78,1.06,403345000
+Income Bracket,1. < 3L,2991,539,18.02,1.95,138970000
+Income Bracket,2. 3-6L,8252,840,10.18,1.1,411210000
+Income Bracket,3. 6-10L,6642,465,7.0,0.76,417875000
+Income Bracket,4. 10-18L,3473,173,4.98,0.54,269425000
+Income Bracket,5. 18L+,636,16,2.52,0.27,45895000
+Loan Type,Auto Loan,3658,237,6.48,0.7,110005000
+Loan Type,Business Loan,3111,426,13.69,1.48,328975000
+Loan Type,Education Loan,1976,168,8.5,0.92,74245000
+Loan Type,Gold Loan,2095,124,5.92,0.64,15265000
+Loan Type,Home Loan,4459,296,6.64,0.72,540905000
+Loan Type,Personal Loan,6695,782,11.68,1.26,213980000
+State,Bihar,734,88,11.99,1.3,56925000
+State,Delhi,1895,178,9.39,1.02,111090000
+State,Gujarat,2038,180,8.83,0.96,122780000
+State,Karnataka,2430,192,7.9,0.85,132815000
+State,Kerala,714,64,8.96,0.97,36545000
+State,Madhya Pradesh,740,70,9.46,1.02,40980000
+State,Maharashtra,4739,427,9.01,0.97,271180000
+State,Odisha,565,52,9.2,1.0,27385000
+State,Punjab,480,58,12.08,1.31,42560000
+State,Rajasthan,989,101,10.21,1.1,58930000
+State,Tamil Nadu,2104,173,8.22,0.89,109885000
+State,Telangana,1501,123,8.19,0.89,84155000
+State,Uttar Pradesh,1741,197,11.32,1.22,100465000
+State,West Bengal,1324,130,9.82,1.06,87680000

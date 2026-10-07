@@ -1,0 +1,728 @@
+loan_id,customer_id,application_date,loan_type,loan_amount,income_bracket,employment_type,employment_history_band,state,city_tier,credit_score,dti,prior_delinquencies,segment_pd,pd_lift,flag_low_credit,flag_high_dti,flag_prior_delinq,flag_thin_history,flag_count,recommended_route,priority_score
+100184,11630,2026-08-18,Auto Loan,1345000,4. 10-18L,Salaried - Private,4. 10+ yrs,Gujarat,2,781,0.447,0,0.0458,0.5,0,0,0,0,0,Fast-Track,61601.0
+100243,12046,2026-08-15,Education Loan,725000,4. 10-18L,Self-Employed,4. 10+ yrs,West Bengal,1,766,0.496,0,0.0713,0.77,0,0,0,0,0,Fast-Track,51693.0
+100250,1705,2026-08-23,Auto Loan,225000,2. 3-6L,Self-Employed,3. 5-10 yrs,Tamil Nadu,1,822,0.146,0,0.0591,0.64,0,0,0,0,0,Fast-Track,13298.0
+100260,16746,2026-09-02,Personal Loan,245000,3. 6-10L,Gig/Contract,2. 2-5 yrs,Telangana,1,760,0.237,0,0.1448,1.57,0,0,0,0,0,Standard,35476.0
+100283,8000,2026-07-27,Education Loan,120000,1. < 3L,Self-Employed,1. < 2 yrs,Odisha,2,651,0.282,1,0.1367,1.48,0,0,0,1,1,Standard,20505.0
+100295,5695,2026-08-13,Personal Loan,475000,3. 6-10L,Self-Employed,1. < 2 yrs,Uttar Pradesh,2,667,0.479,1,0.0914,0.99,0,0,0,1,1,Standard,54269.0
+100304,6032,2026-08-10,Personal Loan,410000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,640,0.469,3,0.0888,0.96,0,0,1,0,1,Standard,45510.0
+100334,9119,2026-09-11,Home Loan,3125000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Gujarat,1,687,0.459,0,0.041,0.44,0,0,0,0,0,Fast-Track,128125.0
+100363,19875,2026-08-30,Business Loan,1695000,4. 10-18L,Salaried - Govt,2. 2-5 yrs,Maharashtra,1,769,0.472,0,0.0726,0.79,0,0,0,0,0,Fast-Track,123057.0
+100376,8320,2026-09-02,Personal Loan,210000,2. 3-6L,Gig/Contract,1. < 2 yrs,Tamil Nadu,1,614,0.263,2,0.1937,2.1,1,0,1,1,3,Manual Review,71185.0
+100400,19438,2026-09-06,Auto Loan,1165000,4. 10-18L,Self-Employed,4. 10+ yrs,Gujarat,1,663,0.428,0,0.0485,0.52,0,0,0,0,0,Fast-Track,56503.0
+100432,10684,2026-09-07,Business Loan,600000,2. 3-6L,Salaried - Private,4. 10+ yrs,Rajasthan,2,698,0.511,0,0.1235,1.34,0,0,0,0,0,Standard,74100.0
+100478,8344,2026-08-14,Personal Loan,165000,1. < 3L,Salaried - Private,3. 5-10 yrs,Delhi,1,666,0.473,2,0.2072,2.24,0,0,1,0,1,Manual Review,42735.0
+100501,622,2026-08-05,Personal Loan,210000,2. 3-6L,Self-Employed,3. 5-10 yrs,Tamil Nadu,2,733,0.141,0,0.1301,1.41,0,0,0,0,0,Standard,27321.0
+100528,2581,2026-08-28,Auto Loan,710000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,639,0.313,1,0.0456,0.49,0,0,0,0,0,Fast-Track,32376.0
+100529,880,2026-08-24,Home Loan,2940000,3. 6-10L,Salaried - Govt,4. 10+ yrs,Telangana,1,736,0.336,0,0.0377,0.41,0,0,0,0,0,Fast-Track,110838.0
+100572,12505,2026-08-15,Education Loan,830000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Telangana,1,762,0.46,0,0.0561,0.61,0,0,0,0,0,Fast-Track,46563.0
+100584,10068,2026-09-13,Personal Loan,575000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Odisha,2,744,0.658,0,0.0584,0.63,0,1,0,0,1,Standard,41975.0
+100599,9154,2026-09-05,Education Loan,310000,2. 3-6L,Salaried - Private,1. < 2 yrs,Kerala,2,760,0.387,0,0.1046,1.13,0,0,0,1,1,Standard,40533.0
+100669,2553,2026-08-06,Home Loan,955000,2. 3-6L,Salaried - Private,4. 10+ yrs,Gujarat,2,667,0.429,1,0.0547,0.59,0,0,0,0,0,Fast-Track,52239.0
+100683,10033,2026-08-09,Education Loan,460000,3. 6-10L,Salaried - Private,3. 5-10 yrs,West Bengal,1,853,0.461,0,0.0589,0.64,0,0,0,0,0,Fast-Track,27094.0
+100687,1793,2026-08-21,Personal Loan,310000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Karnataka,1,745,0.42,0,0.1075,1.16,0,0,0,0,0,Standard,33325.0
+100837,9165,2026-08-30,Home Loan,1135000,2. 3-6L,Salaried - Private,4. 10+ yrs,Tamil Nadu,2,708,0.46,0,0.0547,0.59,0,0,0,0,0,Fast-Track,62085.0
+100897,12419,2026-08-12,Education Loan,330000,2. 3-6L,Salaried - Private,1. < 2 yrs,Gujarat,1,663,0.178,0,0.1046,1.13,0,0,0,1,1,Standard,43148.0
+100902,1316,2026-08-16,Personal Loan,245000,2. 3-6L,Salaried - Private,1. < 2 yrs,West Bengal,1,743,0.379,0,0.1075,1.16,0,0,0,1,1,Standard,32922.0
+100940,7614,2026-09-11,Auto Loan,1470000,4. 10-18L,Salaried - Private,4. 10+ yrs,Delhi,1,739,0.392,0,0.0458,0.5,0,0,0,0,0,Fast-Track,67326.0
+100950,9627,2026-07-20,Education Loan,1075000,4. 10-18L,Salaried - Govt,4. 10+ yrs,Karnataka,1,781,0.305,0,0.0508,0.55,0,0,0,0,0,Fast-Track,54610.0
+100954,13236,2026-07-30,Home Loan,1215000,2. 3-6L,Self-Employed,4. 10+ yrs,Maharashtra,2,709,0.534,0,0.085,0.92,0,0,0,0,0,Standard,103275.0
+100961,1758,2026-07-17,Home Loan,1585000,2. 3-6L,Salaried - Private,4. 10+ yrs,Kerala,2,707,0.453,0,0.0547,0.59,0,0,0,0,0,Fast-Track,86700.0
+101063,16144,2026-07-22,Business Loan,940000,3. 6-10L,Salaried - Private,1. < 2 yrs,Kerala,2,700,0.475,0,0.1143,1.24,0,0,0,1,1,Standard,134303.0
+101096,14902,2026-07-25,Auto Loan,665000,3. 6-10L,Self-Employed,3. 5-10 yrs,Delhi,1,706,0.242,0,0.0516,0.56,0,0,0,0,0,Fast-Track,34314.0
+101116,1165,2026-08-14,Personal Loan,460000,3. 6-10L,Self-Employed,4. 10+ yrs,Maharashtra,1,710,0.264,0,0.0914,0.99,0,0,0,0,0,Standard,42044.0
+101144,1396,2026-09-06,Gold Loan,60000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,738,0.571,0,0.0985,1.07,0,1,0,1,2,Manual Review,8865.0
+101190,11395,2026-08-01,Auto Loan,535000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Rajasthan,2,773,0.202,0,0.0456,0.49,0,0,0,0,0,Fast-Track,24396.0
+101246,12226,2026-08-08,Home Loan,2535000,3. 6-10L,Salaried - Private,4. 10+ yrs,Karnataka,1,726,0.334,0,0.041,0.44,0,0,0,0,0,Fast-Track,103935.0
+101249,14669,2026-08-02,Auto Loan,940000,4. 10-18L,Salaried - Govt,2. 2-5 yrs,Maharashtra,1,736,0.322,0,0.0631,0.68,0,0,0,0,0,Fast-Track,59314.0
+101294,2243,2026-09-04,Personal Loan,265000,3. 6-10L,Salaried - Private,4. 10+ yrs,Delhi,1,695,0.159,0,0.0888,0.96,0,0,0,0,0,Standard,23532.0
+101297,9657,2026-08-14,Auto Loan,405000,3. 6-10L,Self-Employed,3. 5-10 yrs,Tamil Nadu,1,727,0.138,0,0.0516,0.56,0,0,0,0,0,Fast-Track,20898.0
+101343,1144,2026-07-29,Education Loan,225000,1. < 3L,Gig/Contract,2. 2-5 yrs,Bihar,2,630,0.212,3,0.18,1.95,0,0,1,0,1,Manual Review,50625.0
+101425,14460,2026-08-27,Education Loan,965000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Delhi,1,677,0.194,0,0.0561,0.61,0,0,0,0,0,Fast-Track,54137.0
+101438,3627,2026-08-24,Personal Loan,230000,3. 6-10L,Salaried - Private,1. < 2 yrs,Rajasthan,2,779,0.133,0,0.0888,0.96,0,0,0,1,1,Standard,25530.0
+101447,19009,2026-08-05,Auto Loan,585000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,675,0.549,0,0.0743,0.8,0,0,0,0,0,Standard,43466.0
+101531,5304,2026-09-14,Auto Loan,455000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Delhi,1,768,0.138,0,0.0456,0.49,0,0,0,0,0,Fast-Track,20748.0
+101557,16524,2026-08-10,Home Loan,2795000,4. 10-18L,Salaried - Private,4. 10+ yrs,Maharashtra,1,750,0.636,0,0.0401,0.43,0,1,0,0,1,Standard,140099.0
+101562,11944,2026-09-05,Personal Loan,365000,3. 6-10L,Gig/Contract,1. < 2 yrs,Karnataka,1,684,0.294,1,0.1448,1.57,0,0,0,1,1,Standard,66065.0
+101571,19617,2026-08-28,Business Loan,735000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Rajasthan,2,778,0.368,0,0.1235,1.34,0,0,0,0,0,Standard,90773.0
+101572,15750,2026-08-04,Gold Loan,90000,2. 3-6L,Self-Employed,3. 5-10 yrs,Delhi,1,810,0.498,0,0.0985,1.07,0,0,0,0,0,Standard,8865.0
+101607,11072,2026-08-17,Personal Loan,485000,4. 10-18L,Salaried - Govt,2. 2-5 yrs,Maharashtra,1,863,0.175,0,0.0339,0.37,0,0,0,0,0,Fast-Track,16442.0
+101610,19871,2026-07-25,Personal Loan,645000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Delhi,1,704,0.441,0,0.0888,0.96,0,0,0,0,0,Standard,57276.0
+101627,7931,2026-08-20,Home Loan,1785000,3. 6-10L,Self-Employed,1. < 2 yrs,Karnataka,1,671,0.293,2,0.0672,0.73,0,0,1,1,2,Standard,179928.0
+101642,1151,2026-07-19,Personal Loan,500000,3. 6-10L,Self-Employed,2. 2-5 yrs,Maharashtra,1,736,0.278,0,0.0914,0.99,0,0,0,0,0,Standard,45700.0
+101646,2010,2026-07-20,Personal Loan,220000,2. 3-6L,Salaried - Private,2. 2-5 yrs,West Bengal,1,637,0.323,1,0.1075,1.16,0,0,0,0,0,Standard,23650.0
+101681,3628,2026-08-23,Business Loan,990000,3. 6-10L,Salaried - Private,1. < 2 yrs,Gujarat,2,822,0.513,0,0.1143,1.24,0,0,0,1,1,Standard,141446.0
+101738,11454,2026-07-28,Education Loan,330000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,606,0.445,3,0.0976,1.06,1,0,1,1,3,Manual Review,56364.0
+101812,14492,2026-09-11,Gold Loan,495000,4. 10-18L,Salaried - Private,4. 10+ yrs,West Bengal,1,861,0.312,0,0.0318,0.34,0,0,0,0,0,Fast-Track,15741.0
+101825,11993,2026-07-19,Personal Loan,175000,2. 3-6L,Self-Employed,1. < 2 yrs,Rajasthan,2,675,0.159,0,0.1301,1.41,0,0,0,1,1,Standard,28459.0
+101831,12115,2026-07-22,Home Loan,1810000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Gujarat,1,688,0.451,1,0.0547,0.59,0,0,0,0,0,Fast-Track,99007.0
+101876,17751,2026-07-25,Auto Loan,175000,1. < 3L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,780,0.156,1,0.1072,1.16,0,0,0,0,0,Standard,18760.0
+101900,15573,2026-08-28,Home Loan,3530000,3. 6-10L,Salaried - Private,4. 10+ yrs,Karnataka,1,729,0.697,0,0.041,0.44,0,1,0,0,1,Standard,180913.0
+101902,19676,2026-09-13,Personal Loan,175000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,749,0.378,0,0.1075,1.16,0,0,0,0,0,Standard,18813.0
+101960,5423,2026-07-26,Personal Loan,375000,3. 6-10L,Salaried - Govt,4. 10+ yrs,Uttar Pradesh,3,703,0.257,0,0.0538,0.58,0,0,0,0,0,Fast-Track,20175.0
+101968,3210,2026-08-19,Auto Loan,620000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,Maharashtra,1,675,0.371,1,0.0577,0.62,0,0,0,0,0,Fast-Track,35774.0
+102062,1661,2026-07-24,Gold Loan,95000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,657,0.371,1,0.0714,0.77,0,0,0,0,0,Fast-Track,6783.0
+102098,5975,2026-07-22,Gold Loan,45000,1. < 3L,Gig/Contract,1. < 2 yrs,Kerala,2,586,0.435,0,0.1108,1.2,1,0,0,1,2,Manual Review,7479.0
+102106,6806,2026-08-30,Personal Loan,535000,4. 10-18L,Self-Employed,3. 5-10 yrs,Uttar Pradesh,2,685,0.173,1,0.0776,0.84,0,0,0,0,0,Standard,41516.0
+102127,18199,2026-08-13,Personal Loan,255000,2. 3-6L,Self-Employed,4. 10+ yrs,Bihar,2,701,0.329,0,0.1301,1.41,0,0,0,0,0,Standard,33176.0
+102217,7215,2026-08-03,Business Loan,930000,4. 10-18L,Salaried - Private,4. 10+ yrs,Bihar,2,703,0.337,0,0.0917,0.99,0,0,0,0,0,Standard,85281.0
+102224,5584,2026-09-05,Gold Loan,365000,4. 10-18L,Salaried - Private,1. < 2 yrs,West Bengal,1,723,0.62,0,0.0318,0.34,0,1,0,1,2,Standard,17411.0
+102229,9008,2026-09-13,Auto Loan,530000,2. 3-6L,Salaried - Private,1. < 2 yrs,Telangana,1,761,0.523,0,0.0743,0.8,0,0,0,1,1,Standard,49224.0
+102235,14932,2026-09-04,Auto Loan,715000,3. 6-10L,Gig/Contract,1. < 2 yrs,Maharashtra,2,622,0.765,0,0.0526,0.57,0,1,0,1,2,Standard,56414.0
+102259,16301,2026-07-23,Education Loan,405000,2. 3-6L,Gig/Contract,3. 5-10 yrs,Maharashtra,2,714,0.388,0,0.1108,1.2,0,0,0,0,0,Standard,44874.0
+102281,13320,2026-08-03,Education Loan,1185000,4. 10-18L,Self-Employed,2. 2-5 yrs,Maharashtra,1,776,0.5,0,0.0713,0.77,0,0,0,0,0,Fast-Track,84491.0
+102297,13015,2026-09-02,Personal Loan,615000,3. 6-10L,Self-Employed,2. 2-5 yrs,Karnataka,1,707,0.592,0,0.0914,0.99,0,1,0,0,1,Standard,70264.0
+102351,330,2026-08-30,Auto Loan,760000,3. 6-10L,Self-Employed,3. 5-10 yrs,Karnataka,1,701,0.23,0,0.0516,0.56,0,0,0,0,0,Fast-Track,39216.0
+102382,3383,2026-08-22,Auto Loan,660000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Punjab,2,736,0.25,0,0.0577,0.62,0,0,0,0,0,Fast-Track,38082.0
+102406,15809,2026-07-29,Personal Loan,135000,1. < 3L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,719,0.194,0,0.2072,2.24,0,0,0,0,0,Manual Review,27972.0
+102410,10651,2026-08-22,Personal Loan,300000,2. 3-6L,Salaried - Private,3. 5-10 yrs,West Bengal,1,759,0.582,0,0.1075,1.16,0,1,0,0,1,Standard,40313.0
+102416,2437,2026-07-25,Education Loan,1250000,4. 10-18L,Self-Employed,4. 10+ yrs,Gujarat,1,865,0.729,0,0.0713,0.77,0,1,0,0,1,Standard,111406.0
+102425,2952,2026-08-16,Personal Loan,70000,1. < 3L,Gig/Contract,3. 5-10 yrs,Uttar Pradesh,3,604,0.153,0,0.2678,2.9,1,0,0,0,1,Manual Review,23433.0
+102468,5489,2026-07-21,Business Loan,945000,3. 6-10L,Self-Employed,4. 10+ yrs,Delhi,1,585,0.308,0,0.1266,1.37,1,0,0,0,1,Standard,149546.0
+102480,4870,2026-08-22,Business Loan,665000,2. 3-6L,Salaried - Private,1. < 2 yrs,Gujarat,1,705,0.441,0,0.1235,1.34,0,0,0,1,1,Standard,102659.0
+102481,6967,2026-07-20,Auto Loan,960000,3. 6-10L,Self-Employed,1. < 2 yrs,Telangana,1,638,0.288,0,0.0516,0.56,0,0,0,1,1,Standard,61920.0
+102551,483,2026-09-04,Auto Loan,335000,2. 3-6L,Salaried - Private,1. < 2 yrs,Gujarat,1,829,0.301,0,0.0743,0.8,0,0,0,1,1,Standard,31113.0
+102562,5763,2026-07-25,Auto Loan,610000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Uttar Pradesh,2,709,0.242,0,0.0456,0.49,0,0,0,0,0,Fast-Track,27816.0
+102579,9130,2026-08-21,Education Loan,900000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Gujarat,2,838,0.569,0,0.0589,0.64,0,1,0,0,1,Standard,66263.0
+102592,19249,2026-07-18,Auto Loan,1735000,4. 10-18L,Self-Employed,4. 10+ yrs,West Bengal,1,649,0.408,0,0.0485,0.52,0,0,0,0,0,Fast-Track,84148.0
+102624,5787,2026-08-21,Personal Loan,210000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Rajasthan,2,657,0.242,1,0.1075,1.16,0,0,0,0,0,Standard,22575.0
+102661,14810,2026-08-19,Personal Loan,1540000,5. 18L+,Salaried - Private,4. 10+ yrs,Maharashtra,1,900,0.239,0,0.0583,0.63,0,0,0,0,0,Fast-Track,89782.0
+102694,7609,2026-08-19,Home Loan,950000,2. 3-6L,Gig/Contract,1. < 2 yrs,Karnataka,2,646,0.537,0,0.1052,1.14,0,0,0,1,1,Standard,124925.0
+102736,13015,2026-07-18,Auto Loan,610000,3. 6-10L,Self-Employed,2. 2-5 yrs,Karnataka,1,707,0.497,0,0.0516,0.56,0,0,0,0,0,Fast-Track,31476.0
+102748,18302,2026-08-20,Home Loan,2870000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,714,0.37,0,0.041,0.44,0,0,0,0,0,Fast-Track,117670.0
+102769,16229,2026-08-04,Personal Loan,805000,5. 18L+,Salaried - Private,1. < 2 yrs,Karnataka,1,709,0.166,0,0.0583,0.63,0,0,0,1,1,Standard,58664.0
+102789,961,2026-09-03,Personal Loan,185000,1. < 3L,Self-Employed,1. < 2 yrs,Telangana,1,710,0.268,0,0.2034,2.2,0,0,0,1,1,Manual Review,47036.0
+102807,8384,2026-09-04,Home Loan,1050000,2. 3-6L,Gig/Contract,2. 2-5 yrs,Karnataka,2,649,0.42,0,0.1052,1.14,0,0,0,0,0,Standard,110460.0
+102818,17648,2026-09-06,Personal Loan,240000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,715,0.581,0,0.1075,1.16,0,1,0,1,2,Manual Review,38700.0
+102841,1219,2026-08-26,Home Loan,1175000,2. 3-6L,Gig/Contract,4. 10+ yrs,West Bengal,1,678,0.621,0,0.1052,1.14,0,1,0,0,1,Standard,154513.0
+102855,9199,2026-08-12,Home Loan,2150000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Karnataka,1,691,0.723,1,0.041,0.44,0,1,0,0,1,Standard,110188.0
+102882,4650,2026-08-29,Auto Loan,970000,3. 6-10L,Salaried - Govt,4. 10+ yrs,Tamil Nadu,1,788,0.426,0,0.0577,0.62,0,0,0,0,0,Fast-Track,55969.0
+103010,10436,2026-07-30,Home Loan,4720000,4. 10-18L,Salaried - Private,4. 10+ yrs,Kerala,2,692,0.715,1,0.0401,0.43,0,1,0,0,1,Standard,236590.0
+103052,16927,2026-08-28,Auto Loan,555000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Odisha,2,745,0.232,0,0.0743,0.8,0,0,0,0,0,Standard,41237.0
+103071,16181,2026-08-16,Home Loan,1145000,2. 3-6L,Salaried - Private,1. < 2 yrs,Punjab,2,660,0.318,1,0.0547,0.59,0,0,0,1,1,Standard,78289.0
+103082,3077,2026-07-17,Auto Loan,420000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Delhi,1,681,0.335,0,0.0743,0.8,0,0,0,0,0,Standard,31206.0
+103300,16660,2026-07-18,Education Loan,605000,3. 6-10L,Self-Employed,3. 5-10 yrs,Tamil Nadu,1,697,0.151,0,0.0992,1.07,0,0,0,0,0,Standard,60016.0
+103369,17809,2026-07-25,Personal Loan,95000,1. < 3L,Salaried - Govt,3. 5-10 yrs,Maharashtra,2,631,0.184,1,0.1268,1.37,0,0,0,0,0,Standard,12046.0
+103401,2137,2026-07-17,Personal Loan,160000,1. < 3L,Salaried - Private,4. 10+ yrs,Karnataka,2,652,0.396,0,0.2072,2.24,0,0,0,0,0,Manual Review,33152.0
+103446,15862,2026-07-24,Business Loan,240000,1. < 3L,Salaried - Govt,3. 5-10 yrs,Rajasthan,2,683,0.444,0,0.0535,0.58,0,0,0,0,0,Fast-Track,12840.0
+103496,17131,2026-09-03,Education Loan,910000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Punjab,2,827,0.783,0,0.0589,0.64,0,1,0,0,1,Standard,66999.0
+103504,11682,2026-09-12,Home Loan,1090000,2. 3-6L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,608,0.568,0,0.0547,0.59,1,1,0,1,3,Manual Review,104340.0
+103537,15740,2026-08-11,Business Loan,465000,1. < 3L,Salaried - Private,1. < 2 yrs,Tamil Nadu,2,731,0.467,0,0.1587,1.72,0,0,0,1,1,Standard,92244.0
+103548,7164,2026-08-07,Auto Loan,660000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,3,611,0.47,1,0.0743,0.8,1,0,0,0,1,Standard,61298.0
+103655,15950,2026-07-20,Home Loan,1515000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,800,0.417,0,0.0547,0.59,0,0,0,0,0,Fast-Track,82871.0
+103727,1233,2026-08-07,Home Loan,3900000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Maharashtra,2,738,0.281,0,0.0401,0.43,0,0,0,0,0,Fast-Track,156390.0
+103764,6502,2026-08-31,Gold Loan,130000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Delhi,1,744,0.158,0,0.0421,0.46,0,0,0,0,0,Fast-Track,5473.0
+103769,13662,2026-08-26,Home Loan,2230000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Telangana,1,748,0.875,0,0.0691,0.75,0,1,0,1,2,Standard,231140.0
+103783,5949,2026-08-21,Auto Loan,620000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Delhi,1,717,0.381,1,0.0571,0.62,0,0,0,0,0,Fast-Track,35402.0
+103810,19452,2026-08-03,Home Loan,3700000,3. 6-10L,Salaried - Private,1. < 2 yrs,Maharashtra,1,744,1.019,0,0.041,0.44,0,1,0,1,2,Standard,227550.0
+103845,19849,2026-08-31,Business Loan,1355000,3. 6-10L,Salaried - Private,2. 2-5 yrs,West Bengal,1,670,0.525,0,0.1143,1.24,0,0,0,0,0,Standard,154877.0
+103885,14429,2026-07-24,Home Loan,2180000,2. 3-6L,Gig/Contract,3. 5-10 yrs,Delhi,1,557,0.517,4,0.1052,1.14,1,0,1,0,2,Manual Review,344004.0
+103909,8552,2026-08-02,Personal Loan,290000,2. 3-6L,Salaried - Private,1. < 2 yrs,Gujarat,2,782,0.522,0,0.1075,1.16,0,0,0,1,1,Standard,38969.0
+103912,9860,2026-09-02,Personal Loan,380000,3. 6-10L,Self-Employed,1. < 2 yrs,Tamil Nadu,2,703,0.231,0,0.0914,0.99,0,0,0,1,1,Standard,43415.0
+104087,6851,2026-08-29,Home Loan,1495000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Kerala,2,619,0.752,0,0.0691,0.75,1,1,0,1,3,Manual Review,180783.0
+104095,16133,2026-08-23,Auto Loan,310000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,720,0.33,0,0.0743,0.8,0,0,0,1,1,Standard,28791.0
+104123,9006,2026-08-04,Business Loan,800000,3. 6-10L,Salaried - Private,2. 2-5 yrs,West Bengal,1,685,0.493,0,0.1143,1.24,0,0,0,0,0,Standard,91440.0
+104208,8713,2026-08-01,Business Loan,1085000,3. 6-10L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,3,729,0.46,0,0.1143,1.24,0,0,0,1,1,Standard,155019.0
+104314,12169,2026-09-14,Home Loan,1740000,2. 3-6L,Salaried - Private,4. 10+ yrs,Karnataka,1,602,0.468,1,0.0547,0.59,1,0,0,0,1,Standard,118973.0
+104375,17418,2026-07-31,Personal Loan,255000,2. 3-6L,Self-Employed,1. < 2 yrs,Uttar Pradesh,3,733,0.188,0,0.1301,1.41,0,0,0,1,1,Standard,41469.0
+104433,10387,2026-07-25,Gold Loan,260000,4. 10-18L,Salaried - Private,1. < 2 yrs,Gujarat,1,766,0.317,0,0.0318,0.34,0,0,0,1,1,Standard,10335.0
+104478,11186,2026-08-09,Auto Loan,300000,2. 3-6L,Self-Employed,1. < 2 yrs,Delhi,1,710,0.166,0,0.0591,0.64,0,0,0,1,1,Standard,22163.0
+104499,12768,2026-08-25,Home Loan,2825000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Delhi,1,726,0.53,0,0.0401,0.43,0,0,0,0,0,Fast-Track,113282.0
+104518,4375,2026-08-15,Business Loan,785000,2. 3-6L,Gig/Contract,1. < 2 yrs,Gujarat,1,701,0.613,0,0.203,2.2,0,1,0,1,2,Manual Review,239033.0
+104552,5904,2026-07-17,Personal Loan,360000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,3,682,0.268,0,0.1075,1.16,0,0,0,0,0,Standard,38700.0
+104681,7094,2026-08-10,Home Loan,1750000,2. 3-6L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,2,810,0.395,0,0.0547,0.59,0,0,0,1,1,Standard,119656.0
+104709,458,2026-07-27,Personal Loan,80000,1. < 3L,Gig/Contract,1. < 2 yrs,Tamil Nadu,1,681,0.683,1,0.2678,2.9,0,1,0,1,2,Manual Review,32136.0
+104719,6306,2026-07-31,Education Loan,1180000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,884,0.351,0,0.0561,0.61,0,0,0,0,0,Fast-Track,66198.0
+104725,10864,2026-09-04,Auto Loan,185000,2. 3-6L,Gig/Contract,2. 2-5 yrs,Maharashtra,2,571,0.327,2,0.1305,1.41,1,0,1,0,2,Manual Review,36214.0
+104732,8612,2026-08-12,Auto Loan,1040000,4. 10-18L,Self-Employed,1. < 2 yrs,West Bengal,1,748,0.241,0,0.0485,0.52,0,0,0,1,1,Standard,63050.0
+104733,7584,2026-08-16,Home Loan,865000,1. < 3L,Self-Employed,3. 5-10 yrs,Uttar Pradesh,3,679,0.345,0,0.1178,1.27,0,0,0,0,0,Standard,101897.0
+104760,19441,2026-08-15,Auto Loan,1080000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,815,0.264,0,0.0456,0.49,0,0,0,0,0,Fast-Track,49248.0
+104764,452,2026-07-26,Personal Loan,460000,3. 6-10L,Salaried - Private,4. 10+ yrs,Rajasthan,2,669,0.508,0,0.0888,0.96,0,0,0,0,0,Standard,40848.0
+104796,14399,2026-08-22,Gold Loan,180000,4. 10-18L,Self-Employed,2. 2-5 yrs,Maharashtra,2,879,0.174,0,0.0571,0.62,0,0,0,0,0,Fast-Track,10278.0
+104846,3356,2026-07-31,Education Loan,180000,1. < 3L,Self-Employed,2. 2-5 yrs,Delhi,1,726,0.125,0,0.1367,1.48,0,0,0,0,0,Standard,24606.0
+104865,1637,2026-09-08,Home Loan,1820000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Delhi,1,815,0.324,1,0.0547,0.59,0,0,0,0,0,Fast-Track,99554.0
+104892,4156,2026-07-22,Gold Loan,75000,2. 3-6L,Gig/Contract,4. 10+ yrs,Maharashtra,1,660,0.683,0,0.1142,1.24,0,1,0,0,1,Standard,10706.0
+104896,15688,2026-07-31,Business Loan,2135000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Karnataka,1,681,0.531,0,0.0917,0.99,0,0,0,0,0,Standard,195780.0
+104901,9897,2026-09-02,Personal Loan,160000,1. < 3L,Salaried - Private,4. 10+ yrs,Gujarat,2,710,0.413,0,0.2072,2.24,0,0,0,0,0,Manual Review,33152.0
+104938,16583,2026-09-03,Auto Loan,350000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,732,0.173,0,0.0591,0.64,0,0,0,1,1,Standard,25856.0
+104964,15311,2026-07-24,Home Loan,1190000,1. < 3L,Self-Employed,2. 2-5 yrs,Gujarat,1,688,0.742,0,0.1178,1.27,0,1,0,0,1,Standard,175228.0
+104966,16212,2026-09-09,Home Loan,2740000,3. 6-10L,Self-Employed,1. < 2 yrs,Tamil Nadu,2,871,0.529,0,0.0672,0.73,0,0,0,1,1,Standard,230160.0
+104982,14117,2026-08-10,Auto Loan,290000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Rajasthan,2,768,0.287,0,0.0743,0.8,0,0,0,0,0,Standard,21547.0
+105002,17276,2026-08-03,Personal Loan,240000,3. 6-10L,Self-Employed,4. 10+ yrs,Gujarat,1,716,0.158,0,0.0914,0.99,0,0,0,0,0,Standard,21936.0
+105007,3160,2026-08-23,Business Loan,760000,2. 3-6L,Salaried - Private,1. < 2 yrs,Karnataka,2,582,0.392,1,0.1235,1.34,1,0,0,1,2,Manual Review,140790.0
+105041,1704,2026-08-14,Personal Loan,175000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Gujarat,1,706,0.288,0,0.1075,1.16,0,0,0,0,0,Standard,18813.0
+105046,3081,2026-08-12,Education Loan,240000,2. 3-6L,Self-Employed,4. 10+ yrs,Karnataka,1,694,0.122,0,0.0976,1.06,0,0,0,0,0,Standard,23424.0
+105076,12547,2026-09-03,Auto Loan,690000,3. 6-10L,Salaried - Private,1. < 2 yrs,Rajasthan,2,729,0.277,0,0.0456,0.49,0,0,0,1,1,Standard,39330.0
+105083,7290,2026-08-24,Gold Loan,170000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Maharashtra,2,674,0.279,0,0.0421,0.46,0,0,0,0,0,Fast-Track,7157.0
+105175,18284,2026-07-29,Gold Loan,220000,3. 6-10L,Gig/Contract,3. 5-10 yrs,Delhi,1,860,0.279,0,0.0941,1.02,0,0,0,0,0,Standard,20702.0
+105197,18724,2026-08-30,Auto Loan,1060000,4. 10-18L,Salaried - Private,4. 10+ yrs,Bihar,2,733,0.403,0,0.0458,0.5,0,0,0,0,0,Fast-Track,48548.0
+105254,7764,2026-07-24,Auto Loan,455000,2. 3-6L,Self-Employed,3. 5-10 yrs,Karnataka,1,608,0.287,1,0.0591,0.64,1,0,0,0,1,Standard,33613.0
+105284,18566,2026-08-31,Business Loan,570000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Gujarat,1,519,0.416,1,0.1235,1.34,1,0,0,0,1,Standard,87994.0
+105359,5939,2026-07-20,Home Loan,3545000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Gujarat,2,615,0.46,1,0.0401,0.43,1,0,0,0,1,Standard,177693.0
+105376,3284,2026-07-18,Auto Loan,750000,3. 6-10L,Salaried - Private,1. < 2 yrs,Maharashtra,1,635,0.585,0,0.0456,0.49,0,1,0,1,2,Standard,51300.0
+105431,2045,2026-08-09,Auto Loan,220000,1. < 3L,Salaried - Govt,1. < 2 yrs,Kerala,2,656,0.395,0,0.0838,0.91,0,0,0,1,1,Standard,23045.0
+105461,13085,2026-08-08,Home Loan,320000,1. < 3L,Gig/Contract,1. < 2 yrs,Tamil Nadu,2,667,0.482,0,0.1641,1.78,0,0,0,1,1,Standard,65640.0
+105466,9814,2026-07-18,Personal Loan,255000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,702,0.273,1,0.1075,1.16,0,0,0,0,0,Standard,27413.0
+105545,13482,2026-07-31,Business Loan,805000,3. 6-10L,Gig/Contract,1. < 2 yrs,Maharashtra,1,648,0.386,1,0.126,1.36,0,0,0,1,1,Standard,126788.0
+105549,5448,2026-07-19,Education Loan,235000,1. < 3L,Gig/Contract,2. 2-5 yrs,Delhi,1,686,0.303,0,0.18,1.95,0,0,0,0,0,Manual Review,42300.0
+105712,1332,2026-07-19,Personal Loan,770000,4. 10-18L,Salaried - Private,1. < 2 yrs,Tamil Nadu,2,782,0.252,1,0.0584,0.63,0,0,0,1,1,Standard,56210.0
+105730,19657,2026-07-17,Home Loan,645000,1. < 3L,Self-Employed,2. 2-5 yrs,West Bengal,1,799,0.591,0,0.1178,1.27,0,1,0,0,1,Standard,94976.0
+105770,12220,2026-08-19,Personal Loan,820000,4. 10-18L,Salaried - Private,1. < 2 yrs,West Bengal,1,743,0.271,0,0.0584,0.63,0,0,0,1,1,Standard,59860.0
+105798,12614,2026-09-08,Education Loan,445000,3. 6-10L,Salaried - Private,3. 5-10 yrs,West Bengal,1,749,0.13,0,0.0589,0.64,0,0,0,0,0,Fast-Track,26211.0
+105807,2459,2026-09-14,Auto Loan,1135000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Karnataka,1,704,0.265,0,0.0458,0.5,0,0,0,0,0,Fast-Track,51983.0
+105843,18631,2026-08-18,Gold Loan,450000,5. 18L+,Salaried - Private,4. 10+ yrs,Karnataka,1,679,0.283,0,0.0639,0.69,0,0,0,0,0,Fast-Track,28755.0
+105850,6279,2026-07-30,Home Loan,1580000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Uttar Pradesh,2,716,0.429,0,0.0547,0.59,0,0,0,0,0,Fast-Track,86426.0
+105858,11500,2026-08-24,Personal Loan,275000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Delhi,1,786,0.36,0,0.1075,1.16,0,0,0,0,0,Standard,29563.0
+105903,11218,2026-08-22,Home Loan,5035000,4. 10-18L,Self-Employed,2. 2-5 yrs,Delhi,1,692,0.498,0,0.057,0.62,0,0,0,0,0,Fast-Track,286995.0
+105938,6532,2026-07-17,Gold Loan,85000,2. 3-6L,Salaried - Private,1. < 2 yrs,Kerala,2,731,0.294,0,0.0714,0.77,0,0,0,1,1,Standard,7586.0
+106116,18603,2026-08-24,Home Loan,2820000,4. 10-18L,Self-Employed,4. 10+ yrs,Maharashtra,1,661,0.449,1,0.057,0.62,0,0,0,0,0,Fast-Track,160740.0
+106161,10867,2026-09-13,Business Loan,570000,2. 3-6L,Gig/Contract,2. 2-5 yrs,Maharashtra,1,779,0.868,0,0.203,2.2,0,1,0,0,1,Manual Review,144638.0
+106173,17799,2026-09-04,Auto Loan,485000,3. 6-10L,Self-Employed,4. 10+ yrs,Maharashtra,1,607,0.235,0,0.0516,0.56,1,0,0,0,1,Standard,31283.0
+106208,14660,2026-09-14,Personal Loan,120000,2. 3-6L,Self-Employed,2. 2-5 yrs,Karnataka,1,713,0.14,0,0.1301,1.41,0,0,0,0,0,Standard,15612.0
+106235,3759,2026-09-10,Auto Loan,425000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Punjab,2,694,0.208,1,0.0743,0.8,0,0,0,0,0,Standard,31578.0
+106240,8871,2026-09-14,Personal Loan,350000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Telangana,1,797,0.299,0,0.1075,1.16,0,0,0,0,0,Standard,37625.0
+106263,18309,2026-08-13,Home Loan,1675000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,Delhi,1,730,0.784,0,0.0377,0.41,0,1,0,0,1,Standard,78934.0
+106265,6997,2026-08-01,Personal Loan,210000,2. 3-6L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,2,756,0.497,0,0.1075,1.16,0,0,0,1,1,Standard,28219.0
+106291,12622,2026-08-20,Education Loan,420000,2. 3-6L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,3,569,0.258,1,0.1046,1.13,1,0,0,1,2,Manual Review,65898.0
+106303,13672,2026-08-29,Home Loan,1440000,3. 6-10L,Self-Employed,1. < 2 yrs,Punjab,2,588,0.643,0,0.0672,0.73,1,1,0,1,3,Manual Review,169344.0
+106312,19524,2026-09-01,Auto Loan,905000,3. 6-10L,Self-Employed,4. 10+ yrs,Tamil Nadu,2,676,0.274,1,0.0516,0.56,0,0,0,0,0,Fast-Track,46698.0
+106333,4899,2026-08-12,Home Loan,2195000,3. 6-10L,Salaried - Private,1. < 2 yrs,Madhya Pradesh,2,708,0.554,1,0.041,0.44,0,1,0,1,2,Standard,134993.0
+106407,19336,2026-09-02,Business Loan,1110000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,736,0.443,0,0.1143,1.24,0,0,0,0,0,Standard,126873.0
+106409,9932,2026-07-25,Home Loan,2000000,3. 6-10L,Salaried - Private,1. < 2 yrs,West Bengal,1,615,0.587,0,0.041,0.44,1,1,0,1,3,Manual Review,143500.0
+106428,13250,2026-09-13,Gold Loan,160000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,758,0.427,0,0.0714,0.77,0,0,0,1,1,Standard,14280.0
+106433,15574,2026-07-25,Auto Loan,400000,2. 3-6L,Self-Employed,2. 2-5 yrs,Uttar Pradesh,2,652,0.634,0,0.0591,0.64,0,1,0,0,1,Standard,29550.0
+106461,17253,2026-08-26,Auto Loan,820000,3. 6-10L,Self-Employed,2. 2-5 yrs,Kerala,2,810,0.496,0,0.0516,0.56,0,0,0,0,0,Fast-Track,42312.0
+106488,3733,2026-07-29,Education Loan,430000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Telangana,1,627,0.13,0,0.0436,0.47,0,0,0,0,0,Fast-Track,18748.0
+106535,3037,2026-07-26,Gold Loan,60000,1. < 3L,Salaried - Private,4. 10+ yrs,Gujarat,1,627,0.33,1,0.0908,0.98,0,0,0,0,0,Standard,5448.0
+106538,19361,2026-07-22,Personal Loan,770000,4. 10-18L,Self-Employed,3. 5-10 yrs,Rajasthan,2,825,0.403,0,0.0776,0.84,0,0,0,0,0,Standard,59752.0
+106543,12102,2026-08-25,Home Loan,1805000,2. 3-6L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,774,0.402,0,0.0547,0.59,0,0,0,1,1,Standard,123417.0
+106573,9249,2026-09-05,Personal Loan,350000,2. 3-6L,Self-Employed,3. 5-10 yrs,Gujarat,1,660,0.67,1,0.1301,1.41,0,1,0,0,1,Standard,56919.0
+106577,336,2026-08-17,Personal Loan,530000,4. 10-18L,Salaried - Private,4. 10+ yrs,Gujarat,1,746,0.661,0,0.0584,0.63,0,1,0,0,1,Standard,38690.0
+106604,3809,2026-09-11,Personal Loan,355000,3. 6-10L,Self-Employed,1. < 2 yrs,Punjab,2,734,0.278,0,0.0914,0.99,0,0,0,1,1,Standard,40559.0
+106682,13126,2026-08-06,Personal Loan,295000,3. 6-10L,Salaried - Private,1. < 2 yrs,Maharashtra,2,710,0.199,0,0.0888,0.96,0,0,0,1,1,Standard,32745.0
+106723,13488,2026-07-29,Business Loan,960000,2. 3-6L,Gig/Contract,1. < 2 yrs,Maharashtra,1,694,0.563,0,0.203,2.2,0,1,0,1,2,Manual Review,292320.0
+106744,1045,2026-07-21,Education Loan,340000,1. < 3L,Gig/Contract,1. < 2 yrs,Maharashtra,1,683,0.287,0,0.18,1.95,0,0,0,1,1,Manual Review,76500.0
+106797,13025,2026-08-29,Personal Loan,110000,2. 3-6L,Gig/Contract,4. 10+ yrs,Maharashtra,1,629,0.136,0,0.1937,2.1,0,0,0,0,0,Manual Review,21307.0
+106808,513,2026-07-18,Auto Loan,310000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,726,0.436,0,0.0591,0.64,0,0,0,1,1,Standard,22901.0
+106828,10298,2026-07-22,Business Loan,1250000,3. 6-10L,Gig/Contract,4. 10+ yrs,Tamil Nadu,1,707,0.477,0,0.126,1.36,0,0,0,0,0,Standard,157500.0
+106850,7317,2026-07-24,Home Loan,785000,1. < 3L,Salaried - Private,3. 5-10 yrs,Rajasthan,2,671,0.574,1,0.1118,1.21,0,1,0,0,1,Standard,109704.0
+106902,12649,2026-08-05,Auto Loan,315000,2. 3-6L,Salaried - Govt,4. 10+ yrs,Maharashtra,2,775,0.354,0,0.0571,0.62,0,0,0,0,0,Fast-Track,17987.0
+106913,12730,2026-07-27,Business Loan,575000,2. 3-6L,Salaried - Govt,4. 10+ yrs,Gujarat,2,766,0.311,0,0.0866,0.94,0,0,0,0,0,Standard,49795.0
+106949,13355,2026-08-14,Auto Loan,305000,2. 3-6L,Self-Employed,4. 10+ yrs,Uttar Pradesh,3,670,0.159,4,0.0591,0.64,0,0,1,0,1,Standard,22532.0
+106974,1786,2026-08-14,Gold Loan,65000,1. < 3L,Salaried - Govt,1. < 2 yrs,Bihar,2,689,0.26,1,0.0897,0.97,0,0,0,1,1,Standard,7288.0
+107012,17019,2026-08-08,Home Loan,4685000,4. 10-18L,Self-Employed,2. 2-5 yrs,Gujarat,2,705,0.746,0,0.057,0.62,0,1,0,0,1,Standard,333806.0
+107039,2245,2026-08-06,Education Loan,300000,2. 3-6L,Salaried - Private,4. 10+ yrs,Delhi,1,577,0.174,1,0.1046,1.13,1,0,0,0,1,Standard,39225.0
+107054,14363,2026-08-26,Home Loan,1385000,3. 6-10L,Self-Employed,4. 10+ yrs,Kerala,2,703,0.387,0,0.0672,0.73,0,0,0,0,0,Fast-Track,93072.0
+107087,18694,2026-07-29,Business Loan,305000,2. 3-6L,Self-Employed,1. < 2 yrs,Tamil Nadu,1,671,0.471,0,0.1665,1.8,0,0,0,1,1,Manual Review,63478.0
+107114,10444,2026-07-17,Business Loan,1010000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Gujarat,1,738,0.574,0,0.0917,0.99,0,1,0,0,1,Standard,115771.0
+107163,3976,2026-08-10,Auto Loan,550000,2. 3-6L,Salaried - Private,4. 10+ yrs,Maharashtra,2,744,0.239,0,0.0743,0.8,0,0,0,0,0,Standard,40865.0
+107213,9259,2026-07-19,Business Loan,855000,3. 6-10L,Self-Employed,3. 5-10 yrs,Delhi,1,765,0.448,0,0.1266,1.37,0,0,0,0,0,Standard,108243.0
+107279,11526,2026-08-15,Personal Loan,200000,2. 3-6L,Self-Employed,4. 10+ yrs,Uttar Pradesh,3,609,0.33,3,0.1301,1.41,1,0,1,0,2,Manual Review,39030.0
+107315,4018,2026-08-29,Auto Loan,410000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Tamil Nadu,1,682,0.321,1,0.0577,0.62,0,0,0,0,0,Fast-Track,23657.0
+107327,1754,2026-08-15,Personal Loan,100000,1. < 3L,Salaried - Private,2. 2-5 yrs,Bihar,2,634,0.237,0,0.2072,2.24,0,0,0,0,0,Manual Review,20720.0
+107377,11459,2026-08-21,Business Loan,810000,2. 3-6L,Self-Employed,2. 2-5 yrs,Madhya Pradesh,2,669,0.467,0,0.1665,1.8,0,0,0,0,0,Manual Review,134865.0
+107428,13815,2026-08-29,Personal Loan,425000,4. 10-18L,Salaried - Private,1. < 2 yrs,Tamil Nadu,2,738,0.614,0,0.0584,0.63,0,1,0,1,2,Standard,37230.0
+107448,2575,2026-08-31,Personal Loan,495000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Telangana,1,740,0.333,1,0.0888,0.96,0,0,0,0,0,Standard,43956.0
+107481,12405,2026-08-15,Business Loan,785000,2. 3-6L,Salaried - Private,4. 10+ yrs,Punjab,2,698,0.588,0,0.1235,1.34,0,1,0,0,1,Standard,121184.0
+107483,13255,2026-09-06,Auto Loan,835000,4. 10-18L,Salaried - Private,3. 5-10 yrs,West Bengal,1,774,0.169,0,0.0458,0.5,0,0,0,0,0,Fast-Track,38243.0
+107533,15010,2026-07-31,Auto Loan,285000,2. 3-6L,Self-Employed,2. 2-5 yrs,Tamil Nadu,1,838,0.179,0,0.0591,0.64,0,0,0,0,0,Fast-Track,16844.0
+107556,11342,2026-08-30,Business Loan,400000,1. < 3L,Salaried - Private,1. < 2 yrs,Maharashtra,2,618,0.412,1,0.1587,1.72,1,0,0,1,2,Manual Review,95220.0
+107611,4044,2026-08-26,Auto Loan,200000,1. < 3L,Self-Employed,4. 10+ yrs,Punjab,2,735,0.444,0,0.1286,1.39,0,0,0,0,0,Standard,25720.0
+107668,10002,2026-07-29,Personal Loan,150000,1. < 3L,Salaried - Govt,1. < 2 yrs,West Bengal,1,687,0.25,0,0.1268,1.37,0,0,0,1,1,Standard,23775.0
+107677,8562,2026-08-20,Gold Loan,220000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Karnataka,1,779,0.351,0,0.0421,0.46,0,0,0,0,0,Fast-Track,9262.0
+107685,15822,2026-08-23,Home Loan,1575000,3. 6-10L,Salaried - Private,1. < 2 yrs,Karnataka,2,728,0.255,0,0.041,0.44,0,0,0,1,1,Standard,80719.0
+107692,6311,2026-07-22,Home Loan,4755000,4. 10-18L,Salaried - Private,4. 10+ yrs,Maharashtra,1,698,0.401,0,0.0401,0.43,0,0,0,0,0,Fast-Track,190675.0
+107697,4761,2026-07-17,Business Loan,360000,1. < 3L,Salaried - Private,3. 5-10 yrs,Tamil Nadu,2,743,0.544,0,0.1587,1.72,0,0,0,0,0,Standard,57132.0
+107713,4464,2026-08-04,Personal Loan,185000,1. < 3L,Salaried - Private,2. 2-5 yrs,Kerala,2,621,0.376,1,0.2072,2.24,0,0,0,0,0,Manual Review,38332.0
+107714,4935,2026-08-28,Personal Loan,250000,2. 3-6L,Self-Employed,3. 5-10 yrs,Gujarat,1,662,0.453,1,0.1301,1.41,0,0,0,0,0,Standard,32525.0
+107779,7309,2026-07-21,Home Loan,4870000,4. 10-18L,Self-Employed,4. 10+ yrs,Maharashtra,1,681,0.343,0,0.057,0.62,0,0,0,0,0,Fast-Track,277590.0
+107791,2684,2026-09-13,Gold Loan,165000,3. 6-10L,Salaried - Private,4. 10+ yrs,Telangana,1,718,0.421,0,0.0421,0.46,0,0,0,0,0,Fast-Track,6947.0
+107822,15782,2026-09-10,Business Loan,585000,2. 3-6L,Salaried - Govt,4. 10+ yrs,Gujarat,1,612,0.309,2,0.0866,0.94,1,0,1,0,2,Standard,75992.0
+107860,4128,2026-08-26,Gold Loan,140000,2. 3-6L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,703,0.505,0,0.0714,0.77,0,0,0,1,1,Standard,12495.0
+107872,6094,2026-08-17,Auto Loan,910000,4. 10-18L,Salaried - Govt,4. 10+ yrs,Gujarat,1,779,0.628,0,0.0631,0.68,0,1,0,0,1,Standard,71776.0
+107876,12012,2026-09-06,Home Loan,1320000,1. < 3L,Salaried - Govt,2. 2-5 yrs,Maharashtra,1,735,0.883,0,0.0777,0.84,0,1,0,0,1,Standard,128205.0
+107946,8354,2026-09-13,Auto Loan,390000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,2,753,0.18,0,0.0743,0.8,0,0,0,1,1,Standard,36221.0
+107959,8137,2026-09-14,Home Loan,2590000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,Telangana,1,742,0.381,0,0.0377,0.41,0,0,0,0,0,Fast-Track,97643.0
+107976,15205,2026-09-12,Business Loan,1865000,4. 10-18L,Self-Employed,4. 10+ yrs,Karnataka,1,774,0.394,0,0.1006,1.09,0,0,0,0,0,Standard,187619.0
+108015,12030,2026-09-12,Personal Loan,310000,3. 6-10L,Self-Employed,4. 10+ yrs,Tamil Nadu,2,653,0.19,0,0.0914,0.99,0,0,0,0,0,Standard,28334.0
+108057,4031,2026-08-28,Home Loan,1550000,2. 3-6L,Salaried - Private,4. 10+ yrs,Tamil Nadu,2,744,0.728,0,0.0547,0.59,0,1,0,0,1,Standard,105981.0
+108058,3821,2026-09-08,Business Loan,135000,1. < 3L,Gig/Contract,3. 5-10 yrs,Uttar Pradesh,2,735,0.239,0,0.2775,3.0,0,0,0,0,0,Manual Review,37463.0
+108066,15943,2026-07-29,Business Loan,1910000,4. 10-18L,Salaried - Private,1. < 2 yrs,Karnataka,1,779,0.295,0,0.0917,0.99,0,0,0,1,1,Standard,218934.0
+108090,18177,2026-08-23,Auto Loan,645000,4. 10-18L,Self-Employed,2. 2-5 yrs,Maharashtra,1,644,0.164,0,0.0485,0.52,0,0,0,0,0,Fast-Track,31283.0
+108098,2893,2026-08-27,Auto Loan,815000,4. 10-18L,Salaried - Private,1. < 2 yrs,Gujarat,1,779,0.177,0,0.0458,0.5,0,0,0,1,1,Standard,46659.0
+108172,7926,2026-09-12,Gold Loan,215000,3. 6-10L,Self-Employed,2. 2-5 yrs,Maharashtra,2,668,0.341,2,0.064,0.69,0,0,1,0,1,Standard,17200.0
+108197,19877,2026-08-31,Auto Loan,125000,1. < 3L,Salaried - Govt,4. 10+ yrs,Odisha,2,639,0.195,2,0.0838,0.91,0,0,1,0,1,Standard,13094.0
+108203,14287,2026-08-16,Home Loan,1565000,2. 3-6L,Gig/Contract,4. 10+ yrs,Telangana,1,722,0.699,0,0.1052,1.14,0,1,0,0,1,Standard,205798.0
+108215,6359,2026-09-12,Business Loan,385000,1. < 3L,Self-Employed,1. < 2 yrs,Tamil Nadu,2,674,0.454,0,0.1843,1.99,0,0,0,1,1,Manual Review,88694.0
+108238,5383,2026-08-20,Personal Loan,450000,3. 6-10L,Self-Employed,2. 2-5 yrs,Uttar Pradesh,3,808,0.33,0,0.0914,0.99,0,0,0,0,0,Standard,41130.0
+108371,2453,2026-09-02,Auto Loan,425000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Gujarat,2,728,0.749,0,0.0743,0.8,0,1,0,0,1,Standard,39472.0
+108375,13295,2026-08-17,Home Loan,6940000,4. 10-18L,Self-Employed,4. 10+ yrs,Maharashtra,1,758,0.521,0,0.057,0.62,0,0,0,0,0,Fast-Track,395580.0
+108432,3319,2026-08-25,Business Loan,255000,1. < 3L,Salaried - Private,4. 10+ yrs,Maharashtra,1,692,0.69,0,0.1587,1.72,0,1,0,0,1,Standard,50586.0
+108466,15811,2026-07-31,Home Loan,780000,1. < 3L,Salaried - Private,1. < 2 yrs,Gujarat,2,767,0.567,0,0.1118,1.21,0,1,0,1,2,Manual Review,130806.0
+108506,15856,2026-08-01,Gold Loan,325000,4. 10-18L,Self-Employed,3. 5-10 yrs,Madhya Pradesh,2,686,0.431,1,0.0571,0.62,0,0,0,0,0,Fast-Track,18558.0
+108618,15085,2026-07-18,Personal Loan,210000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Karnataka,2,768,0.357,1,0.0863,0.93,0,0,0,1,1,Standard,22654.0
+108644,1707,2026-08-05,Home Loan,1010000,1. < 3L,Self-Employed,4. 10+ yrs,Maharashtra,1,714,0.511,0,0.1178,1.27,0,0,0,0,0,Standard,118978.0
+108653,2157,2026-08-21,Home Loan,1540000,3. 6-10L,Gig/Contract,3. 5-10 yrs,Maharashtra,1,711,0.947,0,0.1204,1.3,0,1,0,0,1,Standard,231770.0
+108678,19753,2026-07-19,Personal Loan,140000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Maharashtra,2,638,0.331,1,0.0863,0.93,0,0,0,0,0,Standard,12082.0
+108721,11581,2026-09-10,Gold Loan,85000,2. 3-6L,Salaried - Private,4. 10+ yrs,Tamil Nadu,2,681,0.609,0,0.0714,0.77,0,1,0,0,1,Standard,7586.0
+108764,18337,2026-07-22,Gold Loan,70000,2. 3-6L,Self-Employed,2. 2-5 yrs,Karnataka,2,638,0.256,2,0.0985,1.07,0,0,1,0,1,Standard,8619.0
+108828,19031,2026-08-23,Auto Loan,650000,3. 6-10L,Salaried - Private,4. 10+ yrs,Gujarat,2,658,0.635,1,0.0456,0.49,0,1,0,0,1,Standard,37050.0
+108853,8819,2026-08-11,Home Loan,1080000,2. 3-6L,Self-Employed,2. 2-5 yrs,Uttar Pradesh,3,573,0.66,2,0.085,0.92,1,1,1,0,3,Manual Review,160650.0
+108881,15586,2026-07-19,Home Loan,1565000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Gujarat,1,776,0.341,0,0.0547,0.59,0,0,0,0,0,Fast-Track,85606.0
+108973,13271,2026-09-10,Business Loan,945000,3. 6-10L,Salaried - Private,4. 10+ yrs,Karnataka,1,727,0.814,0,0.1143,1.24,0,1,0,0,1,Standard,135017.0
+108985,8061,2026-08-29,Personal Loan,615000,4. 10-18L,Self-Employed,4. 10+ yrs,Gujarat,2,758,0.215,0,0.0776,0.84,0,0,0,0,0,Standard,47724.0
+109027,11714,2026-07-22,Personal Loan,650000,4. 10-18L,Gig/Contract,2. 2-5 yrs,Delhi,1,787,0.354,0,0.075,0.81,0,0,0,0,0,Standard,48750.0
+109060,2517,2026-09-07,Auto Loan,775000,3. 6-10L,Gig/Contract,4. 10+ yrs,Maharashtra,1,781,0.484,0,0.0526,0.57,0,0,0,0,0,Fast-Track,40765.0
+109066,19035,2026-07-30,Home Loan,2440000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Kerala,2,707,0.495,0,0.041,0.44,0,0,0,0,0,Fast-Track,100040.0
+109127,2002,2026-09-04,Gold Loan,190000,4. 10-18L,Self-Employed,4. 10+ yrs,Tamil Nadu,1,769,0.728,0,0.0571,0.62,0,1,0,0,1,Standard,13561.0
+109143,6849,2026-08-19,Home Loan,3685000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Maharashtra,2,804,0.516,0,0.041,0.44,0,0,0,0,0,Fast-Track,151085.0
+109178,13941,2026-08-28,Personal Loan,105000,1. < 3L,Self-Employed,1. < 2 yrs,Uttar Pradesh,2,774,0.146,0,0.2034,2.2,0,0,0,1,1,Manual Review,26696.0
+109193,1603,2026-07-19,Home Loan,4345000,4. 10-18L,Salaried - Private,3. 5-10 yrs,West Bengal,1,872,0.605,0,0.0401,0.43,0,1,0,0,1,Standard,217793.0
+109236,18617,2026-08-13,Personal Loan,735000,4. 10-18L,Salaried - Private,4. 10+ yrs,Maharashtra,1,814,0.175,1,0.0584,0.63,0,0,0,0,0,Fast-Track,42924.0
+109242,1491,2026-08-15,Auto Loan,590000,3. 6-10L,Gig/Contract,4. 10+ yrs,Maharashtra,1,845,0.175,0,0.0526,0.57,0,0,0,0,0,Fast-Track,31034.0
+109324,15955,2026-08-17,Gold Loan,200000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,692,0.41,0,0.0421,0.46,0,0,0,0,0,Fast-Track,8420.0
+109398,2456,2026-07-19,Gold Loan,195000,4. 10-18L,Self-Employed,3. 5-10 yrs,Telangana,1,694,0.453,0,0.0571,0.62,0,0,0,0,0,Fast-Track,11135.0
+109426,16406,2026-09-12,Business Loan,980000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Karnataka,1,759,0.457,0,0.1143,1.24,0,0,0,0,0,Standard,112014.0
+109464,113,2026-08-29,Auto Loan,1305000,4. 10-18L,Self-Employed,4. 10+ yrs,Karnataka,2,716,0.292,0,0.0485,0.52,0,0,0,0,0,Fast-Track,63293.0
+109480,7232,2026-09-06,Business Loan,230000,1. < 3L,Salaried - Private,1. < 2 yrs,Karnataka,1,694,0.244,0,0.1587,1.72,0,0,0,1,1,Standard,45626.0
+109499,14211,2026-07-21,Business Loan,855000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Uttar Pradesh,3,791,0.225,0,0.1143,1.24,0,0,0,0,0,Standard,97727.0
+109505,12471,2026-08-14,Personal Loan,95000,1. < 3L,Gig/Contract,2. 2-5 yrs,Uttar Pradesh,2,710,0.195,0,0.2678,2.9,0,0,0,0,0,Manual Review,25441.0
+109525,13816,2026-08-18,Business Loan,560000,2. 3-6L,Salaried - Private,1. < 2 yrs,Kerala,2,757,0.564,0,0.1235,1.34,0,1,0,1,2,Manual Review,103740.0
+109541,8299,2026-08-01,Home Loan,5950000,4. 10-18L,Salaried - Private,4. 10+ yrs,Maharashtra,1,648,0.473,0,0.0401,0.43,0,0,0,0,0,Fast-Track,238595.0
+109544,11372,2026-09-03,Home Loan,2885000,3. 6-10L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,689,0.603,0,0.041,0.44,0,1,0,1,2,Standard,177428.0
+109545,1060,2026-09-01,Education Loan,1180000,4. 10-18L,Self-Employed,3. 5-10 yrs,West Bengal,1,723,0.23,0,0.0713,0.77,0,0,0,0,0,Fast-Track,84134.0
+109579,533,2026-08-28,Gold Loan,40000,1. < 3L,Salaried - Private,3. 5-10 yrs,Delhi,1,688,0.157,1,0.0908,0.98,0,0,0,0,0,Standard,3632.0
+109587,3342,2026-08-01,Gold Loan,335000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Bihar,2,774,0.317,0,0.0318,0.34,0,0,0,0,0,Fast-Track,10653.0
+109658,13594,2026-08-03,Business Loan,1015000,3. 6-10L,Salaried - Govt,4. 10+ yrs,Maharashtra,1,734,0.499,0,0.082,0.89,0,0,0,0,0,Standard,83230.0
+109663,17206,2026-09-04,Personal Loan,120000,1. < 3L,Gig/Contract,1. < 2 yrs,Rajasthan,2,601,0.237,0,0.2678,2.9,1,0,0,1,2,Manual Review,48204.0
+109675,19947,2026-08-15,Business Loan,285000,1. < 3L,Salaried - Private,2. 2-5 yrs,Gujarat,2,648,0.5,0,0.1587,1.72,0,0,0,0,0,Standard,45230.0
+109716,15526,2026-08-31,Home Loan,1645000,3. 6-10L,Self-Employed,4. 10+ yrs,Gujarat,2,658,0.291,0,0.0672,0.73,0,0,0,0,0,Fast-Track,110544.0
+109718,16573,2026-08-25,Gold Loan,140000,2. 3-6L,Self-Employed,4. 10+ yrs,West Bengal,1,605,0.307,0,0.0985,1.07,1,0,0,0,1,Standard,17238.0
+109739,19905,2026-09-10,Home Loan,1900000,3. 6-10L,Self-Employed,4. 10+ yrs,Telangana,1,643,0.39,1,0.0672,0.73,0,0,0,0,0,Fast-Track,127680.0
+109741,9255,2026-07-23,Education Loan,370000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Bihar,2,773,0.33,0,0.1046,1.13,0,0,0,0,0,Standard,38702.0
+109742,11655,2026-08-01,Home Loan,1255000,2. 3-6L,Gig/Contract,3. 5-10 yrs,Maharashtra,2,603,0.704,0,0.1052,1.14,1,1,0,0,2,Manual Review,198039.0
+109748,3856,2026-08-13,Auto Loan,355000,2. 3-6L,Self-Employed,3. 5-10 yrs,Karnataka,1,633,0.517,2,0.0591,0.64,0,0,1,0,1,Standard,26226.0
+109771,12996,2026-07-22,Home Loan,4945000,4. 10-18L,Salaried - Private,4. 10+ yrs,Delhi,1,747,0.465,0,0.0401,0.43,0,0,0,0,0,Fast-Track,198294.0
+109792,2169,2026-07-28,Personal Loan,265000,3. 6-10L,Salaried - Private,1. < 2 yrs,Delhi,1,738,0.243,0,0.0888,0.96,0,0,0,1,1,Standard,29415.0
+109843,1650,2026-09-06,Gold Loan,30000,1. < 3L,Salaried - Govt,3. 5-10 yrs,Uttar Pradesh,3,710,0.175,1,0.0897,0.97,0,0,0,0,0,Standard,2691.0
+109844,8316,2026-08-30,Personal Loan,410000,3. 6-10L,Salaried - Private,1. < 2 yrs,Telangana,1,614,0.281,1,0.0888,0.96,1,0,0,1,2,Standard,54612.0
+109847,17204,2026-08-21,Home Loan,885000,1. < 3L,Salaried - Private,1. < 2 yrs,Maharashtra,1,673,0.326,2,0.1118,1.21,0,0,1,1,2,Manual Review,148415.0
+109906,7666,2026-09-09,Auto Loan,1345000,4. 10-18L,Salaried - Govt,2. 2-5 yrs,Tamil Nadu,1,725,0.431,0,0.0631,0.68,0,0,0,0,0,Fast-Track,84870.0
+109938,15383,2026-07-28,Personal Loan,425000,3. 6-10L,Salaried - Private,1. < 2 yrs,Madhya Pradesh,2,763,0.283,0,0.0888,0.96,0,0,0,1,1,Standard,47175.0
+109983,5896,2026-07-19,Gold Loan,55000,1. < 3L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,3,675,0.386,1,0.0908,0.98,0,0,0,1,1,Standard,6243.0
+110099,19463,2026-07-26,Education Loan,875000,3. 6-10L,Salaried - Private,4. 10+ yrs,Tamil Nadu,1,720,0.428,0,0.0589,0.64,0,0,0,0,0,Fast-Track,51538.0
+110125,18294,2026-07-20,Education Loan,325000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Delhi,1,754,0.174,0,0.06,0.65,0,0,0,0,0,Fast-Track,19500.0
+110131,19238,2026-09-06,Home Loan,2300000,3. 6-10L,Salaried - Private,1. < 2 yrs,Karnataka,1,732,0.345,0,0.041,0.44,0,0,0,1,1,Standard,117875.0
+110187,5683,2026-08-06,Home Loan,1895000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Maharashtra,1,730,0.375,0,0.0691,0.75,0,0,0,0,0,Fast-Track,130944.0
+110196,7492,2026-09-04,Home Loan,990000,2. 3-6L,Self-Employed,1. < 2 yrs,Kerala,2,713,0.406,0,0.085,0.92,0,0,0,1,1,Standard,105188.0
+110201,4067,2026-08-23,Personal Loan,290000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Karnataka,1,712,0.699,0,0.0863,0.93,0,1,0,0,1,Standard,31284.0
+110207,5293,2026-08-13,Gold Loan,205000,3. 6-10L,Salaried - Private,1. < 2 yrs,Rajasthan,2,668,0.306,0,0.0421,0.46,0,0,0,1,1,Standard,10788.0
+110216,1507,2026-08-23,Auto Loan,725000,4. 10-18L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,2,700,0.16,1,0.0458,0.5,0,0,0,1,1,Standard,41506.0
+110313,18730,2026-08-08,Personal Loan,440000,3. 6-10L,Self-Employed,2. 2-5 yrs,Gujarat,2,860,0.265,0,0.0914,0.99,0,0,0,0,0,Standard,40216.0
+110329,422,2026-08-20,Personal Loan,585000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,755,0.18,0,0.0584,0.63,0,0,0,0,0,Fast-Track,34164.0
+110370,2218,2026-09-09,Auto Loan,670000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,Punjab,2,773,0.259,0,0.0577,0.62,0,0,0,0,0,Fast-Track,38659.0
+110387,19128,2026-08-15,Personal Loan,300000,2. 3-6L,Salaried - Private,1. < 2 yrs,Karnataka,1,833,0.439,0,0.1075,1.16,0,0,0,1,1,Standard,40313.0
+110431,18842,2026-09-09,Home Loan,1445000,3. 6-10L,Self-Employed,3. 5-10 yrs,Tamil Nadu,1,708,0.251,0,0.0672,0.73,0,0,0,0,0,Fast-Track,97104.0
+110435,10470,2026-08-02,Personal Loan,680000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Karnataka,1,791,0.233,0,0.0584,0.63,0,0,0,0,0,Fast-Track,39712.0
+110441,17521,2026-08-01,Gold Loan,110000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Tamil Nadu,1,646,0.414,0,0.0473,0.51,0,0,0,0,0,Fast-Track,5203.0
+110492,12753,2026-08-23,Home Loan,1420000,2. 3-6L,Self-Employed,4. 10+ yrs,Telangana,1,656,0.355,0,0.085,0.92,0,0,0,0,0,Standard,120700.0
+110524,2015,2026-09-09,Home Loan,1935000,3. 6-10L,Self-Employed,1. < 2 yrs,Delhi,1,700,0.472,0,0.0672,0.73,0,0,0,1,1,Standard,162540.0
+110530,14546,2026-07-31,Auto Loan,675000,3. 6-10L,Self-Employed,4. 10+ yrs,Telangana,1,718,0.401,0,0.0516,0.56,0,0,0,0,0,Fast-Track,34830.0
+110584,16572,2026-08-06,Business Loan,755000,3. 6-10L,Salaried - Private,3. 5-10 yrs,West Bengal,1,656,0.451,0,0.1143,1.24,0,0,0,0,0,Standard,86297.0
+110592,2657,2026-09-05,Personal Loan,630000,3. 6-10L,Salaried - Private,4. 10+ yrs,Delhi,1,691,0.493,2,0.0888,0.96,0,0,1,0,1,Standard,69930.0
+110640,1974,2026-08-08,Gold Loan,65000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Delhi,1,666,0.47,0,0.0714,0.77,0,0,0,0,0,Fast-Track,4641.0
+110661,1252,2026-07-28,Home Loan,2605000,3. 6-10L,Salaried - Private,1. < 2 yrs,Maharashtra,1,686,0.613,0,0.041,0.44,0,1,0,1,2,Standard,160208.0
+110662,3470,2026-08-12,Auto Loan,975000,4. 10-18L,Salaried - Private,4. 10+ yrs,Kerala,2,628,0.255,3,0.0458,0.5,0,0,1,0,1,Standard,55819.0
+110769,3944,2026-07-29,Personal Loan,340000,3. 6-10L,Salaried - Govt,4. 10+ yrs,Gujarat,1,731,0.226,0,0.0538,0.58,0,0,0,0,0,Fast-Track,18292.0
+110785,14283,2026-07-21,Education Loan,745000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Uttar Pradesh,2,695,0.236,0,0.0589,0.64,0,0,0,0,0,Fast-Track,43881.0
+110800,2029,2026-09-01,Business Loan,1380000,4. 10-18L,Self-Employed,4. 10+ yrs,Telangana,1,892,0.526,0,0.1006,1.09,0,0,0,0,0,Standard,138828.0
+110817,7016,2026-09-09,Auto Loan,390000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Kerala,2,626,0.558,2,0.0743,0.8,0,1,1,0,2,Standard,43466.0
+110896,16988,2026-08-22,Personal Loan,325000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Tamil Nadu,1,737,0.444,0,0.0538,0.58,0,0,0,0,0,Fast-Track,17485.0
+110905,2975,2026-07-24,Personal Loan,515000,3. 6-10L,Salaried - Govt,4. 10+ yrs,Tamil Nadu,2,565,0.301,2,0.0538,0.58,1,0,1,0,2,Standard,41561.0
+110908,4493,2026-07-23,Personal Loan,855000,4. 10-18L,Gig/Contract,3. 5-10 yrs,Kerala,2,694,0.909,0,0.075,0.81,0,1,0,0,1,Standard,80156.0
+110923,6591,2026-09-14,Auto Loan,1350000,4. 10-18L,Salaried - Private,4. 10+ yrs,Karnataka,1,825,0.436,0,0.0458,0.5,0,0,0,0,0,Fast-Track,61830.0
+110936,6240,2026-08-18,Personal Loan,315000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Telangana,1,653,0.38,0,0.0863,0.93,0,0,0,0,0,Standard,27185.0
+110937,8802,2026-08-20,Gold Loan,115000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Karnataka,1,721,0.402,0,0.0473,0.51,0,0,0,0,0,Fast-Track,5440.0
+110970,15140,2026-07-23,Home Loan,2335000,3. 6-10L,Self-Employed,1. < 2 yrs,Delhi,1,712,0.586,0,0.0672,0.73,0,1,0,1,2,Standard,235368.0
+110971,11658,2026-08-21,Gold Loan,40000,1. < 3L,Salaried - Private,3. 5-10 yrs,Gujarat,2,562,0.271,2,0.0908,0.98,1,0,1,0,2,Standard,5448.0
+110993,16596,2026-09-02,Gold Loan,175000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,Delhi,1,737,0.241,0,0.0393,0.43,0,0,0,0,0,Fast-Track,6878.0
+110999,16106,2026-09-11,Personal Loan,680000,4. 10-18L,Salaried - Private,1. < 2 yrs,Karnataka,1,704,0.603,0,0.0584,0.63,0,1,0,1,2,Standard,59568.0
+111049,14935,2026-07-17,Gold Loan,70000,2. 3-6L,Gig/Contract,4. 10+ yrs,Madhya Pradesh,2,753,0.565,0,0.1142,1.24,0,1,0,0,1,Standard,9993.0
+111070,2173,2026-08-05,Personal Loan,555000,4. 10-18L,Salaried - Govt,4. 10+ yrs,Tamil Nadu,2,786,0.557,0,0.0339,0.37,0,1,0,0,1,Standard,23518.0
+111137,4250,2026-08-16,Education Loan,330000,2. 3-6L,Gig/Contract,4. 10+ yrs,Uttar Pradesh,3,688,0.35,0,0.1108,1.2,0,0,0,0,0,Standard,36564.0
+111158,16782,2026-08-23,Auto Loan,510000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Rajasthan,2,840,0.578,0,0.0456,0.49,0,1,0,0,1,Standard,29070.0
+111177,7693,2026-08-06,Auto Loan,2455000,5. 18L+,Self-Employed,4. 10+ yrs,Delhi,1,769,0.446,0,0.0761,0.82,0,0,0,0,0,Standard,186826.0
+111258,15766,2026-07-25,Business Loan,810000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Karnataka,1,678,0.824,1,0.1235,1.34,0,1,0,0,1,Standard,125044.0
+111266,16221,2026-08-06,Personal Loan,185000,1. < 3L,Self-Employed,4. 10+ yrs,Karnataka,1,741,0.371,0,0.2034,2.2,0,0,0,0,0,Manual Review,37629.0
+111326,18183,2026-08-07,Home Loan,9675000,5. 18L+,Salaried - Private,1. < 2 yrs,Tamil Nadu,2,680,0.442,0,0.0591,0.64,0,0,0,1,1,Standard,714741.0
+111329,10238,2026-08-12,Auto Loan,510000,3. 6-10L,Salaried - Private,4. 10+ yrs,Maharashtra,1,729,0.322,0,0.0456,0.49,0,0,0,0,0,Fast-Track,23256.0
+111377,2980,2026-08-11,Personal Loan,270000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Rajasthan,2,699,0.262,0,0.0863,0.93,0,0,0,0,0,Standard,23301.0
+111416,11665,2026-08-12,Personal Loan,650000,4. 10-18L,Salaried - Private,3. 5-10 yrs,West Bengal,1,791,0.17,0,0.0584,0.63,0,0,0,0,0,Fast-Track,37960.0
+111464,6441,2026-09-09,Auto Loan,165000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Tamil Nadu,2,770,0.459,1,0.0571,0.62,0,0,0,0,0,Fast-Track,9422.0
+111468,1502,2026-08-02,Home Loan,3055000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Odisha,2,781,0.408,0,0.041,0.44,0,0,0,0,0,Fast-Track,125255.0
+111483,4404,2026-08-02,Personal Loan,135000,2. 3-6L,Salaried - Private,1. < 2 yrs,Karnataka,1,670,0.539,1,0.1075,1.16,0,0,0,1,1,Standard,18141.0
+111484,3896,2026-09-09,Gold Loan,135000,2. 3-6L,Gig/Contract,4. 10+ yrs,Gujarat,1,733,0.418,0,0.1142,1.24,0,0,0,0,0,Standard,15417.0
+111513,12807,2026-08-17,Education Loan,660000,3. 6-10L,Self-Employed,3. 5-10 yrs,Punjab,2,659,0.311,2,0.0992,1.07,0,0,1,0,1,Standard,81840.0
+111554,17775,2026-08-04,Home Loan,1360000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Uttar Pradesh,3,731,0.275,0,0.0691,0.75,0,0,0,1,1,Standard,117470.0
+111565,11131,2026-09-02,Auto Loan,515000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Karnataka,1,771,0.235,0,0.0456,0.49,0,0,0,0,0,Fast-Track,23484.0
+111571,11049,2026-08-04,Personal Loan,320000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Delhi,1,657,0.169,1,0.0888,0.96,0,0,0,0,0,Standard,28416.0
+111578,709,2026-09-11,Auto Loan,1190000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,709,0.288,0,0.0458,0.5,0,0,0,0,0,Fast-Track,54502.0
+111610,16261,2026-09-01,Personal Loan,285000,3. 6-10L,Salaried - Govt,1. < 2 yrs,Maharashtra,1,697,0.244,0,0.0538,0.58,0,0,0,1,1,Standard,19166.0
+111653,818,2026-09-10,Education Loan,95000,1. < 3L,Gig/Contract,1. < 2 yrs,Telangana,1,608,0.482,2,0.18,1.95,1,0,1,1,3,Manual Review,29925.0
+111711,15671,2026-08-19,Home Loan,1405000,3. 6-10L,Salaried - Private,4. 10+ yrs,Bihar,2,722,0.334,0,0.041,0.44,0,0,0,0,0,Fast-Track,57605.0
+111755,13166,2026-08-25,Business Loan,610000,2. 3-6L,Self-Employed,2. 2-5 yrs,Gujarat,1,808,0.428,0,0.1665,1.8,0,0,0,0,0,Manual Review,101565.0
+111761,15979,2026-08-18,Personal Loan,395000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Maharashtra,1,692,0.755,1,0.0538,0.58,0,1,0,0,1,Standard,26564.0
+111807,8140,2026-07-27,Personal Loan,250000,2. 3-6L,Self-Employed,3. 5-10 yrs,Karnataka,2,664,0.283,0,0.1301,1.41,0,0,0,0,0,Standard,32525.0
+111825,6601,2026-08-09,Gold Loan,580000,5. 18L+,Salaried - Private,3. 5-10 yrs,Maharashtra,1,682,0.356,1,0.0639,0.69,0,0,0,0,0,Fast-Track,37062.0
+111842,1834,2026-08-31,Personal Loan,390000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Maharashtra,2,793,0.227,0,0.0888,0.96,0,0,0,0,0,Standard,34632.0
+111877,12996,2026-07-17,Business Loan,1460000,4. 10-18L,Salaried - Private,4. 10+ yrs,Delhi,1,747,0.387,0,0.0917,0.99,0,0,0,0,0,Standard,133882.0
+111915,17013,2026-09-07,Personal Loan,130000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Kerala,2,610,0.179,1,0.1075,1.16,1,0,0,0,1,Standard,17469.0
+112001,14120,2026-09-14,Auto Loan,640000,3. 6-10L,Salaried - Private,1. < 2 yrs,Karnataka,1,789,0.282,0,0.0456,0.49,0,0,0,1,1,Standard,36480.0
+112032,18004,2026-08-17,Personal Loan,180000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Delhi,1,775,0.718,0,0.0863,0.93,0,1,0,0,1,Standard,19418.0
+112053,9581,2026-07-27,Business Loan,1615000,4. 10-18L,Salaried - Private,4. 10+ yrs,West Bengal,1,664,0.333,1,0.0917,0.99,0,0,0,0,0,Standard,148096.0
+112059,11949,2026-08-28,Auto Loan,250000,2. 3-6L,Gig/Contract,1. < 2 yrs,Telangana,1,788,0.232,0,0.1305,1.41,0,0,0,1,1,Standard,40781.0
+112077,18749,2026-08-13,Gold Loan,155000,3. 6-10L,Gig/Contract,4. 10+ yrs,Maharashtra,1,773,0.353,0,0.0941,1.02,0,0,0,0,0,Standard,14586.0
+112086,14108,2026-07-18,Personal Loan,110000,1. < 3L,Salaried - Govt,1. < 2 yrs,Karnataka,1,651,0.171,0,0.1268,1.37,0,0,0,1,1,Standard,17435.0
+112188,9791,2026-08-12,Home Loan,2175000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Karnataka,1,764,0.572,0,0.041,0.44,0,1,0,0,1,Standard,111469.0
+112218,19004,2026-08-18,Personal Loan,115000,1. < 3L,Self-Employed,1. < 2 yrs,Karnataka,1,647,0.189,1,0.2034,2.2,0,0,0,1,1,Manual Review,29239.0
+112262,15066,2026-07-19,Business Loan,1015000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Gujarat,2,717,0.39,0,0.082,0.89,0,0,0,0,0,Standard,83230.0
+112278,5685,2026-08-02,Gold Loan,125000,3. 6-10L,Self-Employed,1. < 2 yrs,Tamil Nadu,1,700,0.26,0,0.064,0.69,0,0,0,1,1,Standard,10000.0
+112292,5324,2026-08-26,Personal Loan,210000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,606,0.162,0,0.1075,1.16,1,0,0,0,1,Standard,28219.0
+112324,11260,2026-08-04,Gold Loan,175000,4. 10-18L,Self-Employed,4. 10+ yrs,Karnataka,1,752,0.573,0,0.0571,0.62,0,1,0,0,1,Standard,12491.0
+112379,5346,2026-08-24,Home Loan,585000,1. < 3L,Salaried - Govt,1. < 2 yrs,Maharashtra,1,529,0.382,4,0.0777,0.84,1,0,1,1,3,Manual Review,79545.0
+112441,2593,2026-09-03,Auto Loan,290000,1. < 3L,Gig/Contract,1. < 2 yrs,Gujarat,2,679,0.535,0,0.1449,1.57,0,0,0,1,1,Standard,52526.0
+112489,12283,2026-07-17,Education Loan,270000,1. < 3L,Salaried - Private,2. 2-5 yrs,Odisha,2,792,0.298,0,0.0848,0.92,0,0,0,0,0,Standard,22896.0
+112491,14157,2026-08-09,Business Loan,940000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,779,0.428,0,0.1235,1.34,0,0,0,0,0,Standard,116090.0
+112518,12927,2026-08-09,Business Loan,450000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Gujarat,1,807,0.422,0,0.1235,1.34,0,0,0,0,0,Standard,55575.0
+112523,9085,2026-08-01,Home Loan,1630000,3. 6-10L,Self-Employed,4. 10+ yrs,Maharashtra,1,671,0.348,1,0.0672,0.73,0,0,0,0,0,Fast-Track,109536.0
+112529,5344,2026-09-02,Business Loan,250000,1. < 3L,Salaried - Private,4. 10+ yrs,Telangana,1,719,0.358,0,0.1587,1.72,0,0,0,0,0,Standard,39675.0
+112547,8113,2026-08-05,Business Loan,1975000,4. 10-18L,Salaried - Private,4. 10+ yrs,Odisha,2,666,0.507,1,0.0917,0.99,0,0,0,0,0,Standard,181108.0
+112561,5463,2026-09-14,Home Loan,745000,1. < 3L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,653,0.649,0,0.1118,1.21,0,1,0,0,1,Standard,104114.0
+112780,13307,2026-08-02,Personal Loan,365000,3. 6-10L,Self-Employed,1. < 2 yrs,Punjab,2,777,0.49,0,0.0914,0.99,0,0,0,1,1,Standard,41701.0
+112852,2557,2026-08-04,Personal Loan,660000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,718,0.409,0,0.0584,0.63,0,0,0,0,0,Fast-Track,38544.0
+112865,4685,2026-08-09,Personal Loan,750000,4. 10-18L,Self-Employed,2. 2-5 yrs,Kerala,2,739,0.202,0,0.0776,0.84,0,0,0,0,0,Standard,58200.0
+112870,8659,2026-07-24,Auto Loan,750000,3. 6-10L,Self-Employed,1. < 2 yrs,Telangana,1,714,0.575,1,0.0516,0.56,0,1,0,1,2,Standard,58050.0
+112878,3714,2026-08-10,Business Loan,770000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Uttar Pradesh,2,683,0.536,1,0.0866,0.94,0,0,0,0,0,Standard,66682.0
+112894,2379,2026-08-12,Personal Loan,1220000,5. 18L+,Salaried - Private,4. 10+ yrs,Maharashtra,1,780,0.252,0,0.0583,0.63,0,0,0,0,0,Fast-Track,71126.0
+112922,11683,2026-07-20,Education Loan,620000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Rajasthan,2,661,0.31,1,0.0589,0.64,0,0,0,0,0,Fast-Track,36518.0
+112925,4629,2026-09-12,Business Loan,1355000,4. 10-18L,Self-Employed,2. 2-5 yrs,Maharashtra,2,658,0.356,2,0.1006,1.09,0,0,1,0,1,Standard,170391.0
+112933,12341,2026-08-11,Personal Loan,190000,2. 3-6L,Self-Employed,2. 2-5 yrs,Tamil Nadu,1,600,0.375,1,0.1301,1.41,1,0,0,0,1,Standard,30899.0
+112978,10935,2026-08-26,Home Loan,6555000,4. 10-18L,Self-Employed,4. 10+ yrs,Delhi,1,821,0.491,0,0.057,0.62,0,0,0,0,0,Fast-Track,373635.0
+112985,6182,2026-08-29,Home Loan,4945000,5. 18L+,Salaried - Govt,3. 5-10 yrs,Telangana,1,718,0.356,0,0.068,0.74,0,0,0,0,0,Fast-Track,336260.0
+113087,4140,2026-07-28,Personal Loan,335000,2. 3-6L,Self-Employed,4. 10+ yrs,Uttar Pradesh,3,775,0.229,0,0.1301,1.41,0,0,0,0,0,Standard,43584.0
+113093,10797,2026-08-06,Auto Loan,760000,3. 6-10L,Self-Employed,2. 2-5 yrs,Maharashtra,2,714,0.293,0,0.0516,0.56,0,0,0,0,0,Fast-Track,39216.0
+113152,13935,2026-08-20,Home Loan,1555000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,725,0.624,1,0.0547,0.59,0,1,0,0,1,Standard,106323.0
+113177,16929,2026-07-31,Personal Loan,1460000,5. 18L+,Salaried - Private,1. < 2 yrs,Maharashtra,1,804,0.293,0,0.0583,0.63,0,0,0,1,1,Standard,106398.0
+113269,7172,2026-08-23,Personal Loan,420000,3. 6-10L,Gig/Contract,1. < 2 yrs,Telangana,1,730,0.266,0,0.1448,1.57,0,0,0,1,1,Standard,76020.0
+113276,16474,2026-08-22,Business Loan,1315000,4. 10-18L,Salaried - Private,1. < 2 yrs,Odisha,2,668,0.376,0,0.0917,0.99,0,0,0,1,1,Standard,150732.0
+113406,11211,2026-08-08,Personal Loan,865000,4. 10-18L,Self-Employed,4. 10+ yrs,Gujarat,1,720,0.428,0,0.0776,0.84,0,0,0,0,0,Standard,67124.0
+113431,17619,2026-08-28,Home Loan,440000,1. < 3L,Salaried - Private,2. 2-5 yrs,Punjab,2,669,0.423,0,0.1118,1.21,0,0,0,0,0,Standard,49192.0
+113439,11992,2026-08-24,Home Loan,4315000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,Karnataka,1,787,0.48,0,0.0377,0.41,0,0,0,0,0,Fast-Track,162676.0
+113440,19163,2026-08-05,Business Loan,510000,2. 3-6L,Self-Employed,2. 2-5 yrs,Karnataka,1,725,0.446,0,0.1665,1.8,0,0,0,0,0,Manual Review,84915.0
+113457,18104,2026-08-31,Home Loan,1635000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,657,0.511,1,0.0547,0.59,0,0,0,1,1,Standard,111793.0
+113498,19975,2026-08-13,Education Loan,175000,1. < 3L,Salaried - Private,1. < 2 yrs,Maharashtra,1,818,0.148,0,0.0848,0.92,0,0,0,1,1,Standard,18550.0
+113529,2755,2026-07-24,Education Loan,390000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Rajasthan,2,579,0.355,1,0.06,0.65,1,0,0,1,2,Standard,35100.0
+113588,19002,2026-08-23,Personal Loan,435000,3. 6-10L,Gig/Contract,4. 10+ yrs,Kerala,2,647,0.248,3,0.1448,1.57,0,0,1,0,1,Standard,78735.0
+113634,10709,2026-07-30,Business Loan,700000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Gujarat,2,767,0.701,0,0.1143,1.24,0,1,0,0,1,Standard,100013.0
+113657,11169,2026-09-02,Home Loan,3400000,4. 10-18L,Salaried - Private,4. 10+ yrs,West Bengal,1,691,0.309,0,0.0401,0.43,0,0,0,0,0,Fast-Track,136340.0
+113698,1035,2026-07-26,Auto Loan,240000,2. 3-6L,Gig/Contract,4. 10+ yrs,Tamil Nadu,1,585,0.276,1,0.1305,1.41,1,0,0,0,1,Standard,39150.0
+113705,15383,2026-08-28,Personal Loan,335000,3. 6-10L,Salaried - Private,1. < 2 yrs,Madhya Pradesh,2,763,0.224,0,0.0888,0.96,0,0,0,1,1,Standard,37185.0
+113708,1982,2026-08-13,Business Loan,855000,3. 6-10L,Salaried - Private,4. 10+ yrs,Delhi,1,681,0.729,0,0.1143,1.24,0,1,0,0,1,Standard,122158.0
+113813,6830,2026-08-05,Personal Loan,305000,3. 6-10L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,762,0.271,0,0.0888,0.96,0,0,0,0,0,Standard,27084.0
+113815,7358,2026-09-08,Personal Loan,445000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,846,0.487,0,0.0888,0.96,0,0,0,0,0,Standard,39516.0
+113825,699,2026-07-21,Home Loan,7670000,4. 10-18L,Salaried - Private,4. 10+ yrs,Gujarat,2,765,0.592,0,0.0401,0.43,0,1,0,0,1,Standard,384459.0
+113837,8632,2026-07-30,Auto Loan,430000,2. 3-6L,Self-Employed,1. < 2 yrs,Telangana,1,710,0.28,0,0.0591,0.64,0,0,0,1,1,Standard,31766.0
+113880,12559,2026-08-04,Home Loan,2505000,2. 3-6L,Salaried - Private,4. 10+ yrs,Gujarat,1,788,0.415,0,0.0547,0.59,0,0,0,0,0,Fast-Track,137024.0
+113906,3147,2026-08-24,Gold Loan,265000,4. 10-18L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,687,0.473,1,0.0318,0.34,0,0,0,0,0,Fast-Track,8427.0
+113918,821,2026-08-09,Personal Loan,210000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,858,0.273,0,0.1075,1.16,0,0,0,1,1,Standard,28219.0
+113968,11502,2026-08-23,Auto Loan,885000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Telangana,1,739,0.289,0,0.0456,0.49,0,0,0,0,0,Fast-Track,40356.0
+113970,6309,2026-08-31,Home Loan,675000,1. < 3L,Gig/Contract,1. < 2 yrs,Delhi,1,628,0.546,0,0.1641,1.78,0,0,0,1,1,Standard,138459.0
+113985,19194,2026-07-30,Personal Loan,150000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Bihar,2,720,0.289,0,0.0863,0.93,0,0,0,1,1,Standard,16181.0
+113992,15713,2026-08-11,Home Loan,880000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,623,0.33,0,0.0547,0.59,0,0,0,0,0,Fast-Track,48136.0
+114010,6960,2026-09-06,Home Loan,1475000,3. 6-10L,Self-Employed,1. < 2 yrs,Madhya Pradesh,2,774,0.207,0,0.0672,0.73,0,0,0,1,1,Standard,123900.0
+114024,1833,2026-07-24,Education Loan,145000,1. < 3L,Self-Employed,1. < 2 yrs,Tamil Nadu,1,715,0.232,0,0.1367,1.48,0,0,0,1,1,Standard,24777.0
+114072,6486,2026-08-01,Personal Loan,355000,2. 3-6L,Self-Employed,2. 2-5 yrs,Madhya Pradesh,2,805,0.261,1,0.1301,1.41,0,0,0,0,0,Standard,46186.0
+114145,7696,2026-07-19,Gold Loan,75000,1. < 3L,Salaried - Private,2. 2-5 yrs,Telangana,1,718,0.498,0,0.0908,0.98,0,0,0,0,0,Standard,6810.0
+114204,3579,2026-08-26,Gold Loan,80000,1. < 3L,Self-Employed,1. < 2 yrs,Uttar Pradesh,2,726,0.485,0,0.0962,1.04,0,0,0,1,1,Standard,9620.0
+114244,19562,2026-08-24,Auto Loan,515000,2. 3-6L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,3,620,0.794,0,0.0743,0.8,0,1,0,1,2,Standard,57397.0
+114268,11501,2026-09-14,Business Loan,785000,2. 3-6L,Gig/Contract,3. 5-10 yrs,Telangana,1,667,0.593,0,0.203,2.2,0,1,0,0,1,Manual Review,199194.0
+114352,11632,2026-08-16,Auto Loan,400000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Tamil Nadu,2,729,0.526,0,0.0571,0.62,0,0,0,1,1,Standard,28550.0
+114374,16086,2026-08-30,Business Loan,1025000,2. 3-6L,Self-Employed,1. < 2 yrs,Telangana,1,640,0.708,0,0.1665,1.8,0,1,0,1,2,Manual Review,255994.0
+114377,2461,2026-07-26,Personal Loan,300000,2. 3-6L,Salaried - Private,1. < 2 yrs,Rajasthan,2,753,0.345,0,0.1075,1.16,0,0,0,1,1,Standard,40313.0
+114439,214,2026-08-16,Education Loan,275000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,3,584,0.125,0,0.1046,1.13,1,0,0,0,1,Standard,35956.0
+114457,305,2026-08-12,Personal Loan,200000,2. 3-6L,Self-Employed,4. 10+ yrs,Rajasthan,2,712,0.424,0,0.1301,1.41,0,0,0,0,0,Standard,26020.0
+114460,13270,2026-07-26,Home Loan,1715000,2. 3-6L,Self-Employed,1. < 2 yrs,Uttar Pradesh,3,667,0.561,1,0.085,0.92,0,1,0,1,2,Standard,218663.0
+114525,16850,2026-08-13,Business Loan,475000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Delhi,1,708,0.478,0,0.1235,1.34,0,0,0,0,0,Standard,58663.0
+114561,13745,2026-09-09,Personal Loan,365000,3. 6-10L,Self-Employed,3. 5-10 yrs,Telangana,1,691,0.511,0,0.0914,0.99,0,0,0,0,0,Standard,33361.0
+114569,781,2026-07-18,Gold Loan,90000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Karnataka,1,770,0.754,0,0.0473,0.51,0,1,0,0,1,Standard,5321.0
+114572,19634,2026-08-16,Home Loan,3345000,3. 6-10L,Salaried - Private,1. < 2 yrs,Maharashtra,1,778,0.638,0,0.041,0.44,0,1,0,1,2,Standard,205718.0
+114622,5016,2026-08-12,Business Loan,210000,1. < 3L,Self-Employed,1. < 2 yrs,Karnataka,1,623,0.314,0,0.1843,1.99,0,0,0,1,1,Manual Review,48379.0
+114680,3516,2026-09-03,Business Loan,890000,3. 6-10L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,2,716,0.335,0,0.1143,1.24,0,0,0,1,1,Standard,127159.0
+114739,17342,2026-08-10,Education Loan,475000,3. 6-10L,Salaried - Govt,3. 5-10 yrs,Delhi,1,776,0.324,0,0.0436,0.47,0,0,0,0,0,Fast-Track,20710.0
+114763,10286,2026-09-05,Personal Loan,230000,2. 3-6L,Gig/Contract,3. 5-10 yrs,Maharashtra,2,767,0.276,0,0.1937,2.1,0,0,0,0,0,Manual Review,44551.0
+114806,2221,2026-09-12,Business Loan,505000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,750,0.429,0,0.1235,1.34,0,0,0,1,1,Standard,77959.0
+114807,4158,2026-08-20,Personal Loan,255000,3. 6-10L,Gig/Contract,3. 5-10 yrs,Maharashtra,1,677,0.22,0,0.1448,1.57,0,0,0,0,0,Standard,36924.0
+114840,17193,2026-08-13,Business Loan,235000,1. < 3L,Gig/Contract,2. 2-5 yrs,Karnataka,1,762,0.453,0,0.2775,3.0,0,0,0,0,0,Manual Review,65213.0
+114892,12288,2026-09-07,Business Loan,700000,3. 6-10L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,726,0.279,0,0.1143,1.24,0,0,0,0,0,Standard,80010.0
+114938,13457,2026-07-21,Auto Loan,465000,2. 3-6L,Gig/Contract,4. 10+ yrs,Maharashtra,1,708,0.751,0,0.1305,1.41,0,1,0,0,1,Standard,75853.0
+115016,12524,2026-09-03,Personal Loan,685000,4. 10-18L,Salaried - Private,4. 10+ yrs,Karnataka,1,792,0.227,0,0.0584,0.63,0,0,0,0,0,Fast-Track,40004.0
+115028,13725,2026-07-18,Home Loan,2385000,2. 3-6L,Self-Employed,2. 2-5 yrs,Rajasthan,2,837,0.482,0,0.085,0.92,0,0,0,0,0,Standard,202725.0
+115040,4810,2026-08-16,Home Loan,2860000,3. 6-10L,Salaried - Govt,1. < 2 yrs,Telangana,1,713,0.344,0,0.0377,0.41,0,0,0,1,1,Standard,134777.0
+115058,6986,2026-08-07,Home Loan,645000,1. < 3L,Gig/Contract,1. < 2 yrs,Gujarat,1,748,0.279,0,0.1641,1.78,0,0,0,1,1,Standard,132306.0
+115078,1596,2026-08-29,Personal Loan,300000,3. 6-10L,Salaried - Govt,1. < 2 yrs,West Bengal,1,812,0.15,0,0.0538,0.58,0,0,0,1,1,Standard,20175.0
+115097,16425,2026-08-04,Home Loan,1845000,2. 3-6L,Gig/Contract,3. 5-10 yrs,West Bengal,1,735,0.407,0,0.1052,1.14,0,0,0,0,0,Standard,194094.0
+115119,6805,2026-09-10,Home Loan,420000,1. < 3L,Gig/Contract,1. < 2 yrs,Rajasthan,2,561,0.494,0,0.1641,1.78,1,0,0,1,2,Manual Review,103383.0
+115163,1396,2026-08-08,Home Loan,810000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,738,0.629,0,0.085,0.92,0,1,0,1,2,Standard,103275.0
+115197,3735,2026-07-22,Personal Loan,430000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,638,0.63,0,0.0888,0.96,0,1,0,0,1,Standard,47730.0
+115214,1430,2026-08-28,Personal Loan,115000,1. < 3L,Salaried - Govt,4. 10+ yrs,Tamil Nadu,1,663,0.212,0,0.1268,1.37,0,0,0,0,0,Standard,14582.0
+115225,826,2026-07-28,Home Loan,1480000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,771,0.322,0,0.085,0.92,0,0,0,1,1,Standard,157250.0
+115346,6628,2026-09-01,Business Loan,840000,3. 6-10L,Self-Employed,3. 5-10 yrs,Telangana,1,797,0.341,0,0.1266,1.37,0,0,0,0,0,Standard,106344.0
+115349,11297,2026-08-10,Home Loan,2645000,3. 6-10L,Salaried - Govt,2. 2-5 yrs,West Bengal,1,752,0.454,0,0.0377,0.41,0,0,0,0,0,Fast-Track,99717.0
+115395,6642,2026-08-28,Personal Loan,590000,4. 10-18L,Salaried - Govt,3. 5-10 yrs,Bihar,2,674,0.383,0,0.0339,0.37,0,0,0,0,0,Fast-Track,20001.0
+115397,5425,2026-07-27,Personal Loan,245000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Punjab,2,775,0.434,0,0.1075,1.16,0,0,0,0,0,Standard,26338.0
+115431,15624,2026-09-09,Home Loan,1155000,2. 3-6L,Self-Employed,3. 5-10 yrs,Uttar Pradesh,2,750,0.455,0,0.085,0.92,0,0,0,0,0,Standard,98175.0
+115477,14280,2026-09-09,Business Loan,325000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,686,0.274,0,0.1235,1.34,0,0,0,0,0,Standard,40138.0
+115511,18471,2026-08-09,Personal Loan,310000,3. 6-10L,Self-Employed,3. 5-10 yrs,Tamil Nadu,1,699,0.196,0,0.0914,0.99,0,0,0,0,0,Standard,28334.0
+115517,6743,2026-07-24,Auto Loan,1720000,5. 18L+,Salaried - Private,3. 5-10 yrs,Maharashtra,1,880,0.223,0,0.0405,0.44,0,0,0,0,0,Fast-Track,69660.0
+115607,16162,2026-08-06,Personal Loan,260000,2. 3-6L,Salaried - Private,4. 10+ yrs,Karnataka,1,740,0.223,1,0.1075,1.16,0,0,0,0,0,Standard,27950.0
+115618,11696,2026-08-19,Gold Loan,80000,2. 3-6L,Salaried - Private,1. < 2 yrs,Rajasthan,2,769,0.16,0,0.0714,0.77,0,0,0,1,1,Standard,7140.0
+115623,2858,2026-08-24,Auto Loan,1845000,5. 18L+,Self-Employed,4. 10+ yrs,Tamil Nadu,1,746,0.477,0,0.0761,0.82,0,0,0,0,0,Standard,140405.0
+115632,5055,2026-07-22,Personal Loan,330000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Bihar,2,704,0.41,0,0.0888,0.96,0,0,0,0,0,Standard,29304.0
+115665,8061,2026-07-25,Education Loan,1085000,4. 10-18L,Self-Employed,4. 10+ yrs,Gujarat,2,758,0.184,0,0.0713,0.77,0,0,0,0,0,Fast-Track,77361.0
+115764,8589,2026-08-31,Personal Loan,550000,3. 6-10L,Salaried - Private,4. 10+ yrs,Tamil Nadu,2,805,0.228,0,0.0888,0.96,0,0,0,0,0,Standard,48840.0
+115777,6486,2026-07-21,Home Loan,1985000,2. 3-6L,Self-Employed,2. 2-5 yrs,Madhya Pradesh,2,805,0.351,1,0.085,0.92,0,0,0,0,0,Standard,168725.0
+115830,14620,2026-08-04,Personal Loan,250000,2. 3-6L,Gig/Contract,4. 10+ yrs,Maharashtra,1,711,0.488,0,0.1937,2.1,0,0,0,0,0,Manual Review,48425.0
+115877,10097,2026-09-11,Personal Loan,375000,3. 6-10L,Self-Employed,1. < 2 yrs,Maharashtra,1,642,0.237,0,0.0914,0.99,0,0,0,1,1,Standard,42844.0
+115898,8921,2026-08-11,Home Loan,3920000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Delhi,1,748,0.325,0,0.0401,0.43,0,0,0,0,0,Fast-Track,157192.0
+115935,13074,2026-09-12,Personal Loan,295000,3. 6-10L,Salaried - Private,4. 10+ yrs,Karnataka,1,745,0.378,0,0.0888,0.96,0,0,0,0,0,Standard,26196.0
+115977,10361,2026-07-28,Gold Loan,175000,3. 6-10L,Salaried - Private,4. 10+ yrs,Bihar,2,681,0.294,0,0.0421,0.46,0,0,0,0,0,Fast-Track,7368.0
+116004,10444,2026-07-18,Personal Loan,540000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Gujarat,1,738,0.533,0,0.0584,0.63,0,0,0,0,0,Fast-Track,31536.0
+116094,2011,2026-08-02,Auto Loan,385000,3. 6-10L,Self-Employed,3. 5-10 yrs,Maharashtra,1,838,0.132,0,0.0516,0.56,0,0,0,0,0,Fast-Track,19866.0
+116117,17933,2026-07-23,Personal Loan,315000,3. 6-10L,Self-Employed,4. 10+ yrs,Maharashtra,1,755,0.214,1,0.0914,0.99,0,0,0,0,0,Standard,28791.0
+116124,5114,2026-08-08,Personal Loan,620000,4. 10-18L,Self-Employed,2. 2-5 yrs,Punjab,2,782,0.142,0,0.0776,0.84,0,0,0,0,0,Standard,48112.0
+116185,1862,2026-09-06,Home Loan,410000,1. < 3L,Salaried - Private,1. < 2 yrs,Kerala,2,710,0.249,0,0.1118,1.21,0,0,0,1,1,Standard,57298.0
+116237,10003,2026-09-06,Home Loan,1875000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,2,631,0.612,4,0.0547,0.59,0,1,1,1,3,Manual Review,179484.0
+116318,6102,2026-09-10,Personal Loan,180000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,2,625,0.569,0,0.1075,1.16,0,1,0,1,2,Manual Review,29025.0
+116335,4343,2026-08-02,Home Loan,1785000,2. 3-6L,Salaried - Govt,4. 10+ yrs,Telangana,1,753,0.516,0,0.0691,0.75,0,0,0,0,0,Fast-Track,123343.0
+116341,3755,2026-09-06,Home Loan,1295000,3. 6-10L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,710,0.364,0,0.041,0.44,0,0,0,1,1,Standard,66369.0
+116389,925,2026-08-26,Business Loan,465000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,670,0.555,1,0.1235,1.34,0,1,0,0,1,Standard,71784.0
+116402,3659,2026-07-29,Auto Loan,465000,3. 6-10L,Gig/Contract,1. < 2 yrs,Rajasthan,2,751,0.144,0,0.0526,0.57,0,0,0,1,1,Standard,30574.0
+116445,11562,2026-08-28,Gold Loan,135000,2. 3-6L,Salaried - Private,4. 10+ yrs,Telangana,1,822,0.337,0,0.0714,0.77,0,0,0,0,0,Fast-Track,9639.0
+116454,13678,2026-09-01,Business Loan,150000,1. < 3L,Self-Employed,1. < 2 yrs,Delhi,1,699,0.727,0,0.1843,1.99,0,1,0,1,2,Manual Review,41468.0
+116457,11950,2026-08-26,Business Loan,960000,2. 3-6L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,806,0.53,1,0.1235,1.34,0,0,0,1,1,Standard,148200.0
+116467,14973,2026-07-31,Home Loan,1515000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,708,0.308,0,0.0547,0.59,0,0,0,0,0,Fast-Track,82871.0
+116538,4520,2026-07-24,Home Loan,4950000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Karnataka,1,785,0.558,0,0.0401,0.43,0,1,0,0,1,Standard,248119.0
+116566,19949,2026-07-23,Auto Loan,700000,3. 6-10L,Gig/Contract,3. 5-10 yrs,Delhi,1,847,0.228,0,0.0526,0.57,0,0,0,0,0,Fast-Track,36820.0
+116598,3544,2026-09-10,Education Loan,175000,1. < 3L,Salaried - Govt,2. 2-5 yrs,Karnataka,1,661,0.152,0,0.1044,1.13,0,0,0,0,0,Standard,18270.0
+116616,12763,2026-08-20,Gold Loan,365000,5. 18L+,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,686,0.306,0,0.0639,0.69,0,0,0,1,1,Standard,29154.0
+116623,13555,2026-09-01,Business Loan,185000,1. < 3L,Salaried - Private,2. 2-5 yrs,Punjab,2,593,0.26,0,0.1587,1.72,1,0,0,0,1,Standard,36699.0
+116709,14668,2026-08-20,Personal Loan,260000,2. 3-6L,Self-Employed,2. 2-5 yrs,Bihar,2,781,0.328,0,0.1301,1.41,0,0,0,0,0,Standard,33826.0
+116732,18950,2026-08-15,Business Loan,255000,1. < 3L,Self-Employed,1. < 2 yrs,Uttar Pradesh,3,745,0.691,0,0.1843,1.99,0,1,0,1,2,Manual Review,70495.0
+116740,2494,2026-08-07,Business Loan,330000,1. < 3L,Salaried - Govt,4. 10+ yrs,Punjab,2,665,0.321,2,0.0535,0.58,0,0,1,0,1,Standard,22069.0
+116746,11445,2026-09-01,Personal Loan,250000,3. 6-10L,Salaried - Private,1. < 2 yrs,Karnataka,1,736,0.237,0,0.0888,0.96,0,0,0,1,1,Standard,27750.0
+116780,15534,2026-07-29,Home Loan,1595000,2. 3-6L,Self-Employed,4. 10+ yrs,Odisha,2,713,0.687,0,0.085,0.92,0,1,0,0,1,Standard,169469.0
+116793,67,2026-08-06,Gold Loan,70000,2. 3-6L,Self-Employed,3. 5-10 yrs,Telangana,1,708,0.265,0,0.0985,1.07,0,0,0,0,0,Standard,6895.0
+116842,7958,2026-08-08,Gold Loan,270000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Karnataka,1,774,0.283,0,0.0318,0.34,0,0,0,0,0,Fast-Track,8586.0
+116865,427,2026-08-19,Personal Loan,490000,4. 10-18L,Salaried - Govt,3. 5-10 yrs,Karnataka,1,761,0.509,0,0.0339,0.37,0,0,0,0,0,Fast-Track,16611.0
+116885,14273,2026-08-28,Personal Loan,290000,3. 6-10L,Self-Employed,3. 5-10 yrs,Rajasthan,2,673,0.326,0,0.0914,0.99,0,0,0,0,0,Standard,26506.0
+116917,8988,2026-07-23,Education Loan,175000,1. < 3L,Self-Employed,1. < 2 yrs,Kerala,2,812,0.138,0,0.1367,1.48,0,0,0,1,1,Standard,29903.0
+116920,18687,2026-08-10,Personal Loan,295000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,604,0.53,0,0.1075,1.16,1,0,0,1,2,Manual Review,47569.0
+116959,5772,2026-07-28,Education Loan,910000,4. 10-18L,Salaried - Govt,4. 10+ yrs,Rajasthan,2,707,0.176,0,0.0508,0.55,0,0,0,0,0,Fast-Track,46228.0
+116987,8270,2026-07-26,Business Loan,525000,2. 3-6L,Self-Employed,2. 2-5 yrs,Delhi,1,678,0.65,0,0.1665,1.8,0,1,0,0,1,Manual Review,109266.0
+117001,776,2026-09-10,Business Loan,540000,2. 3-6L,Salaried - Private,1. < 2 yrs,Rajasthan,2,757,0.361,0,0.1235,1.34,0,0,0,1,1,Standard,83363.0
+117041,7321,2026-09-09,Education Loan,1275000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,695,0.302,0,0.0561,0.61,0,0,0,0,0,Fast-Track,71528.0
+117059,12058,2026-09-08,Business Loan,1660000,4. 10-18L,Salaried - Private,4. 10+ yrs,Madhya Pradesh,2,658,0.522,2,0.0917,0.99,0,0,1,0,1,Standard,190278.0
+117081,8615,2026-09-06,Personal Loan,310000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Maharashtra,1,729,0.345,0,0.0863,0.93,0,0,0,0,0,Standard,26753.0
+117142,882,2026-07-18,Personal Loan,400000,3. 6-10L,Self-Employed,3. 5-10 yrs,Gujarat,1,808,0.175,0,0.0914,0.99,0,0,0,0,0,Standard,36560.0
+117214,14133,2026-09-13,Home Loan,2940000,3. 6-10L,Self-Employed,4. 10+ yrs,Rajasthan,2,686,0.446,0,0.0672,0.73,0,0,0,0,0,Fast-Track,197568.0
+117224,3664,2026-07-25,Home Loan,1375000,2. 3-6L,Salaried - Private,4. 10+ yrs,West Bengal,1,539,0.394,3,0.0547,0.59,1,0,1,0,2,Standard,112819.0
+117246,10334,2026-07-17,Home Loan,5195000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,733,0.417,0,0.0401,0.43,0,0,0,0,0,Fast-Track,208319.0
+117289,18485,2026-09-02,Education Loan,330000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Uttar Pradesh,3,625,0.389,0,0.1046,1.13,0,0,0,0,0,Standard,34518.0
+117293,2894,2026-08-01,Gold Loan,110000,2. 3-6L,Salaried - Private,1. < 2 yrs,Gujarat,1,595,0.253,0,0.0714,0.77,1,0,0,1,2,Standard,11781.0
+117346,11752,2026-08-25,Business Loan,415000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,799,0.263,0,0.1665,1.8,0,0,0,1,1,Manual Review,86372.0
+117354,17401,2026-07-25,Education Loan,1550000,4. 10-18L,Self-Employed,2. 2-5 yrs,Rajasthan,2,778,0.377,0,0.0713,0.77,0,0,0,0,0,Fast-Track,110515.0
+117392,3717,2026-07-24,Personal Loan,170000,2. 3-6L,Gig/Contract,4. 10+ yrs,West Bengal,1,705,0.302,0,0.1937,2.1,0,0,0,0,0,Manual Review,32929.0
+117434,10101,2026-07-17,Personal Loan,245000,2. 3-6L,Salaried - Private,4. 10+ yrs,Kerala,2,754,0.242,0,0.1075,1.16,0,0,0,0,0,Standard,26338.0
+117533,12555,2026-08-31,Auto Loan,380000,2. 3-6L,Salaried - Private,4. 10+ yrs,Punjab,2,759,0.47,0,0.0743,0.8,0,0,0,0,0,Standard,28234.0
+117551,12787,2026-09-12,Home Loan,935000,1. < 3L,Self-Employed,2. 2-5 yrs,West Bengal,1,667,0.661,0,0.1178,1.27,0,1,0,0,1,Standard,137679.0
+117588,2781,2026-08-20,Business Loan,1645000,3. 6-10L,Salaried - Private,4. 10+ yrs,Maharashtra,1,808,0.436,0,0.1143,1.24,0,0,0,0,0,Standard,188024.0
+117614,18080,2026-08-02,Education Loan,460000,3. 6-10L,Salaried - Private,1. < 2 yrs,Kerala,2,747,0.139,0,0.0589,0.64,0,0,0,1,1,Standard,33868.0
+117623,11556,2026-09-14,Personal Loan,505000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Tamil Nadu,1,712,0.208,0,0.0888,0.96,0,0,0,0,0,Standard,44844.0
+117714,7475,2026-08-20,Personal Loan,210000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,660,0.373,0,0.1075,1.16,0,0,0,1,1,Standard,28219.0
+117716,1605,2026-08-04,Business Loan,1355000,4. 10-18L,Gig/Contract,2. 2-5 yrs,Karnataka,1,795,0.338,0,0.0722,0.78,0,0,0,0,0,Fast-Track,97831.0
+117751,3113,2026-09-02,Education Loan,570000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,West Bengal,1,776,0.184,0,0.06,0.65,0,0,0,0,0,Fast-Track,34200.0
+117823,10543,2026-09-10,Personal Loan,645000,4. 10-18L,Salaried - Govt,3. 5-10 yrs,Maharashtra,1,726,0.42,0,0.0339,0.37,0,0,0,0,0,Fast-Track,21866.0
+117827,11835,2026-09-09,Auto Loan,385000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Karnataka,1,761,0.313,1,0.0571,0.62,0,0,0,1,1,Standard,27479.0
+117850,9822,2026-08-02,Personal Loan,725000,5. 18L+,Salaried - Private,2. 2-5 yrs,Madhya Pradesh,2,787,0.54,0,0.0583,0.63,0,0,0,0,0,Fast-Track,42268.0
+117920,2376,2026-07-30,Personal Loan,130000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,693,0.15,0,0.1075,1.16,0,0,0,1,1,Standard,17469.0
+117926,13250,2026-08-09,Education Loan,500000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,758,0.289,0,0.1046,1.13,0,0,0,1,1,Standard,65375.0
+117935,14151,2026-08-17,Personal Loan,115000,1. < 3L,Salaried - Private,3. 5-10 yrs,Karnataka,1,702,0.318,1,0.2072,2.24,0,0,0,0,0,Manual Review,23828.0
+117945,11957,2026-08-01,Personal Loan,625000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Uttar Pradesh,2,806,0.483,0,0.0584,0.63,0,0,0,0,0,Fast-Track,36500.0
+118009,19181,2026-08-13,Home Loan,800000,2. 3-6L,Gig/Contract,4. 10+ yrs,Gujarat,1,659,0.413,1,0.1052,1.14,0,0,0,0,0,Standard,84160.0
+118074,1596,2026-08-10,Education Loan,920000,3. 6-10L,Salaried - Govt,1. < 2 yrs,West Bengal,1,812,0.221,0,0.0436,0.47,0,0,0,1,1,Standard,50140.0
+118149,13921,2026-08-24,Business Loan,410000,2. 3-6L,Self-Employed,1. < 2 yrs,Uttar Pradesh,2,760,0.488,0,0.1665,1.8,0,0,0,1,1,Manual Review,85331.0
+118155,862,2026-08-22,Home Loan,1335000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Uttar Pradesh,2,740,0.8,0,0.0547,0.59,0,1,0,0,1,Standard,91281.0
+118188,2100,2026-08-16,Education Loan,985000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Karnataka,1,652,0.28,0,0.0589,0.64,0,0,0,0,0,Fast-Track,58017.0
+118192,5731,2026-09-13,Personal Loan,380000,3. 6-10L,Self-Employed,3. 5-10 yrs,Karnataka,1,755,0.169,0,0.0914,0.99,0,0,0,0,0,Standard,34732.0
+118208,14589,2026-08-22,Home Loan,2375000,3. 6-10L,Self-Employed,1. < 2 yrs,Gujarat,2,734,0.366,0,0.0672,0.73,0,0,0,1,1,Standard,199500.0
+118240,12946,2026-08-28,Personal Loan,210000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Tamil Nadu,1,767,0.142,0,0.1075,1.16,0,0,0,0,0,Standard,22575.0
+118273,1523,2026-07-24,Education Loan,465000,2. 3-6L,Salaried - Private,1. < 2 yrs,Rajasthan,2,709,0.226,0,0.1046,1.13,0,0,0,1,1,Standard,60799.0
+118303,19030,2026-09-03,Personal Loan,230000,2. 3-6L,Salaried - Private,1. < 2 yrs,Bihar,2,640,0.391,0,0.1075,1.16,0,0,0,1,1,Standard,30906.0
+118340,9758,2026-09-09,Personal Loan,130000,1. < 3L,Salaried - Govt,4. 10+ yrs,Telangana,1,700,0.425,0,0.1268,1.37,0,0,0,0,0,Standard,16484.0
+118371,8276,2026-09-05,Home Loan,3575000,3. 6-10L,Salaried - Private,1. < 2 yrs,Delhi,1,852,0.452,0,0.041,0.44,0,0,0,1,1,Standard,183219.0
+118391,4061,2026-08-27,Personal Loan,300000,3. 6-10L,Salaried - Private,4. 10+ yrs,Kerala,2,792,0.447,0,0.0888,0.96,0,0,0,0,0,Standard,26640.0
+118399,16386,2026-07-24,Business Loan,805000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Delhi,1,766,0.716,0,0.1143,1.24,0,1,0,0,1,Standard,115014.0
+118426,6150,2026-08-03,Auto Loan,385000,2. 3-6L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,2,723,0.359,0,0.0743,0.8,0,0,0,1,1,Standard,35757.0
+118451,8250,2026-08-02,Auto Loan,350000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,623,0.405,3,0.0591,0.64,0,0,1,1,2,Standard,31028.0
+118537,6704,2026-09-10,Business Loan,1845000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,740,0.594,0,0.0917,0.99,0,1,0,0,1,Standard,211483.0
+118547,15502,2026-08-30,Education Loan,600000,3. 6-10L,Salaried - Private,1. < 2 yrs,Odisha,2,813,0.148,0,0.0589,0.64,0,0,0,1,1,Standard,44175.0
+118555,8308,2026-09-12,Home Loan,1240000,2. 3-6L,Self-Employed,3. 5-10 yrs,Gujarat,2,832,0.44,0,0.085,0.92,0,0,0,0,0,Standard,105400.0
+118679,8521,2026-08-19,Education Loan,605000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Gujarat,1,586,0.533,1,0.0589,0.64,1,0,0,0,1,Standard,44543.0
+118700,9467,2026-08-27,Gold Loan,235000,4. 10-18L,Self-Employed,3. 5-10 yrs,Maharashtra,2,729,0.192,0,0.0571,0.62,0,0,0,0,0,Fast-Track,13419.0
+118739,16508,2026-07-23,Personal Loan,80000,1. < 3L,Salaried - Private,1. < 2 yrs,Maharashtra,2,599,0.153,1,0.2072,2.24,1,0,0,1,2,Manual Review,24864.0
+118814,19089,2026-07-23,Personal Loan,225000,2. 3-6L,Salaried - Private,1. < 2 yrs,Karnataka,1,699,0.206,0,0.1075,1.16,0,0,0,1,1,Standard,30234.0
+118818,10710,2026-08-29,Personal Loan,705000,4. 10-18L,Salaried - Private,2. 2-5 yrs,West Bengal,1,781,0.261,0,0.0584,0.63,0,0,0,0,0,Fast-Track,41172.0
+118825,16911,2026-07-19,Personal Loan,440000,4. 10-18L,Self-Employed,2. 2-5 yrs,Tamil Nadu,1,646,0.235,4,0.0776,0.84,0,0,1,0,1,Standard,42680.0
+118835,15884,2026-08-22,Personal Loan,330000,3. 6-10L,Salaried - Private,4. 10+ yrs,Bihar,2,807,0.429,0,0.0888,0.96,0,0,0,0,0,Standard,29304.0
+118848,525,2026-07-27,Home Loan,935000,1. < 3L,Self-Employed,2. 2-5 yrs,Maharashtra,1,750,0.38,0,0.1178,1.27,0,0,0,0,0,Standard,110143.0
+118903,3676,2026-08-03,Personal Loan,85000,1. < 3L,Gig/Contract,3. 5-10 yrs,Rajasthan,2,542,0.192,3,0.2678,2.9,1,0,1,0,2,Manual Review,34145.0
+118926,17637,2026-08-31,Personal Loan,135000,1. < 3L,Salaried - Private,1. < 2 yrs,Maharashtra,2,730,0.645,0,0.2072,2.24,0,1,0,1,2,Manual Review,41958.0
+118939,3624,2026-08-18,Auto Loan,650000,3. 6-10L,Salaried - Private,1. < 2 yrs,Bihar,2,646,0.268,1,0.0456,0.49,0,0,0,1,1,Standard,37050.0
+119012,15869,2026-08-19,Personal Loan,245000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,754,0.21,0,0.1075,1.16,0,0,0,1,1,Standard,32922.0
+119015,4754,2026-07-21,Personal Loan,560000,4. 10-18L,Self-Employed,4. 10+ yrs,Tamil Nadu,1,745,0.421,1,0.0776,0.84,0,0,0,0,0,Standard,43456.0
+119033,16375,2026-08-20,Home Loan,4250000,4. 10-18L,Salaried - Private,1. < 2 yrs,Gujarat,2,675,0.474,1,0.0401,0.43,0,0,0,1,1,Standard,213031.0
+119084,17361,2026-09-08,Business Loan,510000,2. 3-6L,Self-Employed,2. 2-5 yrs,Odisha,2,656,0.413,0,0.1665,1.8,0,0,0,0,0,Manual Review,84915.0
+119127,18706,2026-08-26,Home Loan,570000,1. < 3L,Gig/Contract,3. 5-10 yrs,Tamil Nadu,1,717,0.313,1,0.1641,1.78,0,0,0,0,0,Standard,93537.0
+119152,6433,2026-09-01,Home Loan,5450000,5. 18L+,Salaried - Private,4. 10+ yrs,Maharashtra,1,729,0.232,0,0.0591,0.64,0,0,0,0,0,Fast-Track,322095.0
+119190,1409,2026-08-18,Business Loan,770000,3. 6-10L,Self-Employed,2. 2-5 yrs,Rajasthan,2,738,0.315,0,0.1266,1.37,0,0,0,0,0,Standard,97482.0
+119196,5486,2026-07-24,Personal Loan,120000,2. 3-6L,Salaried - Private,4. 10+ yrs,Madhya Pradesh,2,684,0.147,0,0.1075,1.16,0,0,0,0,0,Standard,12900.0
+119293,18172,2026-08-20,Auto Loan,300000,1. < 3L,Salaried - Private,2. 2-5 yrs,Uttar Pradesh,2,668,0.421,0,0.1072,1.16,0,0,0,0,0,Standard,32160.0
+119335,17698,2026-08-29,Gold Loan,290000,4. 10-18L,Self-Employed,3. 5-10 yrs,Uttar Pradesh,3,802,0.595,0,0.0571,0.62,0,1,0,0,1,Standard,20699.0
+119354,5176,2026-09-13,Business Loan,535000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,635,0.455,0,0.1235,1.34,0,0,0,1,1,Standard,82591.0
+119376,19463,2026-07-26,Personal Loan,565000,3. 6-10L,Salaried - Private,4. 10+ yrs,Tamil Nadu,1,720,0.492,0,0.0888,0.96,0,0,0,0,0,Standard,50172.0
+119384,9619,2026-09-09,Gold Loan,260000,3. 6-10L,Self-Employed,3. 5-10 yrs,Gujarat,1,750,0.459,0,0.064,0.69,0,0,0,0,0,Fast-Track,16640.0
+119411,11721,2026-07-17,Personal Loan,195000,2. 3-6L,Self-Employed,1. < 2 yrs,Maharashtra,1,571,0.252,2,0.1301,1.41,1,0,1,1,3,Manual Review,44397.0
+119437,3458,2026-08-14,Auto Loan,480000,2. 3-6L,Salaried - Private,4. 10+ yrs,Madhya Pradesh,2,791,0.581,0,0.0743,0.8,0,1,0,0,1,Standard,44580.0
+119442,15601,2026-07-27,Auto Loan,1110000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Karnataka,1,735,0.223,0,0.0458,0.5,0,0,0,0,0,Fast-Track,50838.0
+119443,11245,2026-07-17,Personal Loan,140000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Bihar,2,720,0.179,0,0.1075,1.16,0,0,0,0,0,Standard,15050.0
+119462,9110,2026-08-12,Personal Loan,365000,3. 6-10L,Gig/Contract,4. 10+ yrs,Delhi,1,701,0.373,0,0.1448,1.57,0,0,0,0,0,Standard,52852.0
+119488,11078,2026-07-18,Personal Loan,180000,2. 3-6L,Self-Employed,1. < 2 yrs,Telangana,1,775,0.28,0,0.1301,1.41,0,0,0,1,1,Standard,29273.0
+119498,11336,2026-09-07,Business Loan,2515000,4. 10-18L,Salaried - Private,1. < 2 yrs,Maharashtra,1,631,0.754,0,0.0917,0.99,0,1,0,1,2,Standard,345938.0
+119515,13843,2026-08-03,Business Loan,2065000,4. 10-18L,Salaried - Govt,4. 10+ yrs,West Bengal,1,795,0.712,0,0.0726,0.79,0,1,0,0,1,Standard,187399.0
+119636,4652,2026-08-10,Gold Loan,155000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Uttar Pradesh,3,706,0.702,0,0.0421,0.46,0,1,0,0,1,Standard,8157.0
+119722,13783,2026-08-27,Business Loan,1610000,3. 6-10L,Salaried - Private,1. < 2 yrs,West Bengal,1,777,0.493,0,0.1143,1.24,0,0,0,1,1,Standard,230029.0
+119761,13212,2026-08-16,Gold Loan,385000,4. 10-18L,Salaried - Private,4. 10+ yrs,Delhi,1,776,0.292,0,0.0318,0.34,0,0,0,0,0,Fast-Track,12243.0
+119882,560,2026-08-23,Home Loan,1010000,1. < 3L,Salaried - Private,3. 5-10 yrs,Tamil Nadu,2,582,0.776,3,0.1118,1.21,1,1,1,0,3,Manual Review,197607.0
+119980,19496,2026-07-24,Personal Loan,285000,3. 6-10L,Gig/Contract,4. 10+ yrs,Tamil Nadu,2,738,0.147,0,0.1448,1.57,0,0,0,0,0,Standard,41268.0
+119988,8190,2026-08-25,Home Loan,750000,1. < 3L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,3,633,0.486,1,0.1118,1.21,0,0,0,0,0,Standard,83850.0
+120010,18250,2026-08-25,Education Loan,730000,3. 6-10L,Self-Employed,4. 10+ yrs,Karnataka,1,695,0.277,1,0.0992,1.07,0,0,0,0,0,Standard,72416.0
+120015,12057,2026-08-26,Home Loan,510000,1. < 3L,Gig/Contract,1. < 2 yrs,Delhi,1,632,0.545,3,0.1641,1.78,0,0,1,1,2,Manual Review,125537.0
+120044,457,2026-09-06,Gold Loan,210000,4. 10-18L,Salaried - Private,4. 10+ yrs,Kerala,2,706,0.218,0,0.0318,0.34,0,0,0,0,0,Fast-Track,6678.0
+120049,13411,2026-08-20,Education Loan,545000,3. 6-10L,Self-Employed,4. 10+ yrs,Uttar Pradesh,3,686,0.161,0,0.0992,1.07,0,0,0,0,0,Standard,54064.0
+120080,16901,2026-08-03,Business Loan,925000,3. 6-10L,Self-Employed,1. < 2 yrs,Maharashtra,1,844,0.619,0,0.1266,1.37,0,1,0,1,2,Manual Review,175657.0
+120084,13966,2026-08-02,Business Loan,590000,3. 6-10L,Salaried - Private,4. 10+ yrs,Odisha,2,670,0.24,0,0.1143,1.24,0,0,0,0,0,Standard,67437.0
+120116,16091,2026-07-23,Personal Loan,210000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Karnataka,1,666,0.145,0,0.1075,1.16,0,0,0,0,0,Standard,22575.0
+120167,11964,2026-07-20,Auto Loan,455000,2. 3-6L,Salaried - Private,1. < 2 yrs,Karnataka,1,703,0.283,0,0.0743,0.8,0,0,0,1,1,Standard,42258.0
+120198,6171,2026-08-19,Business Loan,570000,2. 3-6L,Salaried - Private,4. 10+ yrs,Kerala,2,642,0.291,1,0.1235,1.34,0,0,0,0,0,Standard,70395.0
+120234,7959,2026-08-01,Personal Loan,185000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Maharashtra,1,687,0.227,1,0.0863,0.93,0,0,0,0,0,Standard,15966.0
+120317,9767,2026-08-12,Personal Loan,475000,3. 6-10L,Salaried - Private,1. < 2 yrs,Karnataka,1,695,0.232,0,0.0888,0.96,0,0,0,1,1,Standard,52725.0
+120331,14679,2026-09-04,Auto Loan,1110000,4. 10-18L,Salaried - Private,1. < 2 yrs,Maharashtra,1,681,0.309,0,0.0458,0.5,0,0,0,1,1,Standard,63548.0
+120371,4720,2026-08-05,Home Loan,1210000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,601,0.446,1,0.0547,0.59,1,0,0,1,2,Standard,99281.0
+120447,15651,2026-08-22,Personal Loan,80000,1. < 3L,Gig/Contract,1. < 2 yrs,Gujarat,1,743,0.213,1,0.2678,2.9,0,0,0,1,1,Manual Review,26780.0
+120449,11093,2026-08-06,Personal Loan,250000,2. 3-6L,Salaried - Private,3. 5-10 yrs,West Bengal,1,795,0.501,0,0.1075,1.16,0,0,0,0,0,Standard,26875.0
+120468,12158,2026-08-29,Auto Loan,160000,1. < 3L,Gig/Contract,1. < 2 yrs,West Bengal,1,657,0.494,1,0.1449,1.57,0,0,0,1,1,Standard,28980.0
+120470,12677,2026-08-24,Home Loan,1695000,2. 3-6L,Self-Employed,3. 5-10 yrs,Maharashtra,1,805,0.34,0,0.085,0.92,0,0,0,0,0,Standard,144075.0
+120477,9923,2026-09-13,Personal Loan,940000,4. 10-18L,Salaried - Private,2. 2-5 yrs,Gujarat,1,804,0.617,0,0.0584,0.63,0,1,0,0,1,Standard,68620.0
+120501,11912,2026-08-05,Home Loan,1475000,2. 3-6L,Gig/Contract,3. 5-10 yrs,Rajasthan,2,773,0.369,0,0.1052,1.14,0,0,0,0,0,Standard,155170.0
+120505,5347,2026-07-28,Personal Loan,625000,4. 10-18L,Self-Employed,4. 10+ yrs,West Bengal,1,728,0.552,0,0.0776,0.84,0,1,0,0,1,Standard,60625.0
+120516,118,2026-07-20,Home Loan,3850000,4. 10-18L,Salaried - Private,2. 2-5 yrs,West Bengal,1,573,0.335,4,0.0401,0.43,1,0,1,0,2,Standard,231578.0
+120526,2931,2026-08-03,Home Loan,1975000,2. 3-6L,Self-Employed,1. < 2 yrs,Gujarat,1,783,0.332,0,0.085,0.92,0,0,0,1,1,Standard,209844.0
+120531,17151,2026-07-22,Auto Loan,815000,3. 6-10L,Self-Employed,2. 2-5 yrs,Rajasthan,2,745,0.283,0,0.0516,0.56,0,0,0,0,0,Fast-Track,42054.0
+120564,8609,2026-08-14,Auto Loan,510000,3. 6-10L,Self-Employed,1. < 2 yrs,Karnataka,1,738,0.198,0,0.0516,0.56,0,0,0,1,1,Standard,32895.0
+120586,4933,2026-08-21,Personal Loan,145000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,3,662,0.142,0,0.1075,1.16,0,0,0,0,0,Standard,15588.0
+120768,3991,2026-08-23,Auto Loan,295000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Kerala,2,667,0.177,2,0.0743,0.8,0,0,1,0,1,Standard,27398.0
+120890,19159,2026-08-31,Personal Loan,110000,1. < 3L,Self-Employed,4. 10+ yrs,Maharashtra,1,603,0.552,0,0.2034,2.2,1,1,0,0,2,Manual Review,33561.0
+120912,187,2026-08-17,Auto Loan,325000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,566,0.385,2,0.0743,0.8,1,0,1,1,3,Manual Review,42258.0
+120915,531,2026-08-28,Personal Loan,305000,2. 3-6L,Self-Employed,3. 5-10 yrs,West Bengal,1,583,0.224,1,0.1301,1.41,1,0,0,0,1,Standard,49601.0
+120919,5261,2026-08-04,Home Loan,2390000,3. 6-10L,Self-Employed,2. 2-5 yrs,Gujarat,2,755,0.512,0,0.0672,0.73,0,0,0,0,0,Fast-Track,160608.0
+120925,3491,2026-09-08,Business Loan,550000,2. 3-6L,Salaried - Private,4. 10+ yrs,Gujarat,1,792,0.615,0,0.1235,1.34,0,1,0,0,1,Standard,84906.0
+120930,11996,2026-09-10,Home Loan,1505000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Uttar Pradesh,3,686,0.351,0,0.0547,0.59,0,0,0,0,0,Fast-Track,82324.0
+120954,9242,2026-09-12,Personal Loan,200000,1. < 3L,Self-Employed,4. 10+ yrs,Tamil Nadu,2,627,0.292,2,0.2034,2.2,0,0,1,0,1,Manual Review,50850.0
+120977,10641,2026-08-31,Education Loan,815000,4. 10-18L,Self-Employed,1. < 2 yrs,West Bengal,1,825,0.285,0,0.0713,0.77,0,0,0,1,1,Standard,72637.0
+120999,7934,2026-07-26,Personal Loan,480000,4. 10-18L,Self-Employed,3. 5-10 yrs,Maharashtra,1,797,0.43,1,0.0776,0.84,0,0,0,0,0,Standard,37248.0
+121086,14141,2026-08-30,Auto Loan,565000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Tamil Nadu,2,777,0.282,0,0.0743,0.8,0,0,0,0,0,Standard,41980.0
+121133,16820,2026-09-10,Home Loan,3245000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Gujarat,2,824,0.51,0,0.041,0.44,0,0,0,0,0,Fast-Track,133045.0
+121148,3260,2026-07-19,Business Loan,3825000,5. 18L+,Self-Employed,3. 5-10 yrs,Maharashtra,1,779,0.462,0,0.075,0.81,0,0,0,0,0,Standard,286875.0
+121192,9496,2026-08-29,Home Loan,5675000,4. 10-18L,Self-Employed,1. < 2 yrs,Maharashtra,1,812,0.897,0,0.057,0.62,0,1,0,1,2,Standard,485213.0
+121196,9390,2026-08-27,Auto Loan,575000,3. 6-10L,Self-Employed,1. < 2 yrs,Maharashtra,1,649,0.488,0,0.0516,0.56,0,0,0,1,1,Standard,37088.0
+121295,12969,2026-09-05,Business Loan,435000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,693,0.562,1,0.1235,1.34,0,1,0,1,2,Manual Review,80584.0
+121300,12633,2026-08-31,Gold Loan,170000,3. 6-10L,Self-Employed,4. 10+ yrs,Odisha,2,710,0.269,0,0.064,0.69,0,0,0,0,0,Fast-Track,10880.0
+121308,15271,2026-09-08,Personal Loan,70000,1. < 3L,Salaried - Private,1. < 2 yrs,Karnataka,2,631,0.169,1,0.2072,2.24,0,0,0,1,1,Manual Review,18130.0
+121319,3252,2026-08-18,Business Loan,495000,2. 3-6L,Salaried - Private,1. < 2 yrs,Telangana,1,680,0.57,0,0.1235,1.34,0,1,0,1,2,Manual Review,91699.0
+121372,2491,2026-09-09,Personal Loan,250000,2. 3-6L,Self-Employed,4. 10+ yrs,Odisha,2,682,0.317,0,0.1301,1.41,0,0,0,0,0,Standard,32525.0
+121374,4873,2026-07-22,Personal Loan,420000,3. 6-10L,Salaried - Private,4. 10+ yrs,West Bengal,1,684,0.342,0,0.0888,0.96,0,0,0,0,0,Standard,37296.0
+121376,2574,2026-09-04,Business Loan,570000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Bihar,2,730,0.253,0,0.1235,1.34,0,0,0,0,0,Standard,70395.0
+121402,8357,2026-08-16,Home Loan,2325000,3. 6-10L,Salaried - Private,1. < 2 yrs,West Bengal,1,632,0.604,1,0.041,0.44,0,1,0,1,2,Standard,142988.0
+121453,10927,2026-08-28,Education Loan,165000,1. < 3L,Salaried - Govt,3. 5-10 yrs,Telangana,1,701,0.371,0,0.1044,1.13,0,0,0,0,0,Standard,17226.0
+121518,3461,2026-08-03,Auto Loan,555000,3. 6-10L,Salaried - Private,4. 10+ yrs,Tamil Nadu,1,760,0.422,0,0.0456,0.49,0,0,0,0,0,Fast-Track,25308.0
+121544,11317,2026-08-18,Business Loan,315000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,689,0.355,0,0.1235,1.34,0,0,0,1,1,Standard,48628.0
+121547,8506,2026-09-04,Business Loan,710000,2. 3-6L,Self-Employed,2. 2-5 yrs,Karnataka,1,688,0.509,0,0.1665,1.8,0,0,0,0,0,Manual Review,118215.0
+121588,18335,2026-08-22,Auto Loan,1615000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Karnataka,1,778,0.337,0,0.0458,0.5,0,0,0,0,0,Fast-Track,73967.0
+121624,11983,2026-08-24,Business Loan,260000,1. < 3L,Gig/Contract,4. 10+ yrs,Tamil Nadu,1,691,0.266,0,0.2775,3.0,0,0,0,0,0,Manual Review,72150.0
+121658,1222,2026-07-20,Gold Loan,205000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Maharashtra,2,747,0.245,0,0.0421,0.46,0,0,0,0,0,Fast-Track,8631.0
+121671,18226,2026-09-10,Auto Loan,395000,2. 3-6L,Salaried - Govt,3. 5-10 yrs,Uttar Pradesh,3,696,0.478,0,0.0571,0.62,0,0,0,0,0,Fast-Track,22555.0
+121675,4720,2026-08-10,Personal Loan,110000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,601,0.137,1,0.1075,1.16,1,0,0,1,2,Manual Review,17738.0
+121682,17654,2026-07-25,Home Loan,685000,1. < 3L,Salaried - Govt,1. < 2 yrs,Rajasthan,2,688,0.569,0,0.0777,0.84,0,1,0,1,2,Standard,79837.0
+121701,4983,2026-08-07,Personal Loan,70000,1. < 3L,Salaried - Private,1. < 2 yrs,Karnataka,2,632,0.257,0,0.2072,2.24,0,0,0,1,1,Manual Review,18130.0
+121742,5644,2026-08-30,Education Loan,735000,3. 6-10L,Self-Employed,1. < 2 yrs,Delhi,1,782,0.369,0,0.0992,1.07,0,0,0,1,1,Standard,91140.0
+121806,13698,2026-09-14,Personal Loan,295000,2. 3-6L,Salaried - Private,1. < 2 yrs,Delhi,1,657,0.283,1,0.1075,1.16,0,0,0,1,1,Standard,39641.0
+121827,17013,2026-09-06,Personal Loan,215000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Kerala,2,610,0.295,1,0.1075,1.16,1,0,0,0,1,Standard,28891.0
+121851,16981,2026-08-22,Business Loan,275000,1. < 3L,Salaried - Govt,4. 10+ yrs,Bihar,2,588,0.994,0,0.0535,0.58,1,1,0,0,2,Standard,22069.0
+121870,7449,2026-09-07,Education Loan,245000,2. 3-6L,Salaried - Govt,1. < 2 yrs,Tamil Nadu,1,739,0.366,0,0.06,0.65,0,0,0,1,1,Standard,18375.0
+122001,18813,2026-08-27,Home Loan,1220000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Madhya Pradesh,2,762,0.295,0,0.0691,0.75,0,0,0,0,0,Fast-Track,84302.0
+122020,15540,2026-09-04,Auto Loan,690000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Punjab,2,833,0.396,0,0.0456,0.49,0,0,0,0,0,Fast-Track,31464.0
+122022,5185,2026-07-19,Personal Loan,445000,3. 6-10L,Self-Employed,4. 10+ yrs,Maharashtra,1,690,0.263,0,0.0914,0.99,0,0,0,0,0,Standard,40673.0
+122061,13322,2026-07-23,Auto Loan,675000,3. 6-10L,Self-Employed,3. 5-10 yrs,Maharashtra,1,778,0.489,0,0.0516,0.56,0,0,0,0,0,Fast-Track,34830.0
+122163,19414,2026-08-06,Personal Loan,160000,1. < 3L,Gig/Contract,1. < 2 yrs,Telangana,1,707,0.255,0,0.2678,2.9,0,0,0,1,1,Manual Review,53560.0
+122233,11132,2026-08-22,Personal Loan,625000,4. 10-18L,Salaried - Govt,2. 2-5 yrs,Karnataka,1,619,0.243,1,0.0339,0.37,1,0,0,0,1,Standard,26484.0
+122245,12907,2026-09-01,Gold Loan,260000,4. 10-18L,Salaried - Private,1. < 2 yrs,Uttar Pradesh,2,727,0.601,0,0.0318,0.34,0,1,0,1,2,Standard,12402.0
+122246,13938,2026-08-13,Personal Loan,230000,2. 3-6L,Self-Employed,2. 2-5 yrs,Delhi,1,756,0.416,0,0.1301,1.41,0,0,0,0,0,Standard,29923.0
+122267,13008,2026-09-01,Auto Loan,510000,2. 3-6L,Salaried - Private,1. < 2 yrs,Tamil Nadu,1,720,0.337,1,0.0743,0.8,0,0,0,1,1,Standard,47366.0
+122298,6193,2026-08-02,Gold Loan,45000,1. < 3L,Gig/Contract,2. 2-5 yrs,Maharashtra,2,585,0.244,3,0.1108,1.2,1,0,1,0,2,Manual Review,7479.0
+122320,7424,2026-08-25,Personal Loan,165000,2. 3-6L,Gig/Contract,4. 10+ yrs,Tamil Nadu,2,740,0.291,1,0.1937,2.1,0,0,0,0,0,Manual Review,31961.0
+122383,10335,2026-07-28,Home Loan,2830000,3. 6-10L,Salaried - Private,1. < 2 yrs,Maharashtra,2,750,0.744,0,0.041,0.44,0,1,0,1,2,Standard,174045.0
+122404,13659,2026-08-13,Home Loan,3910000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Gujarat,1,900,0.605,0,0.041,0.44,0,1,0,0,1,Standard,200388.0
+122480,21,2026-08-23,Business Loan,515000,2. 3-6L,Salaried - Private,4. 10+ yrs,Uttar Pradesh,2,672,0.595,0,0.1235,1.34,0,1,0,0,1,Standard,79503.0
+122503,12089,2026-08-02,Business Loan,675000,2. 3-6L,Salaried - Private,1. < 2 yrs,Maharashtra,1,663,0.732,1,0.1235,1.34,0,1,0,1,2,Manual Review,125044.0
+122524,18961,2026-09-07,Business Loan,2840000,5. 18L+,Salaried - Private,4. 10+ yrs,Maharashtra,1,681,0.498,0,0.0643,0.7,0,0,0,0,0,Fast-Track,182612.0
+122588,2419,2026-09-09,Personal Loan,370000,3. 6-10L,Salaried - Private,4. 10+ yrs,Maharashtra,1,668,0.276,0,0.0888,0.96,0,0,0,0,0,Standard,32856.0
+122605,15828,2026-08-25,Home Loan,3665000,3. 6-10L,Self-Employed,2. 2-5 yrs,Rajasthan,2,753,0.419,0,0.0672,0.73,0,0,0,0,0,Fast-Track,246288.0
+122653,3950,2026-08-19,Personal Loan,295000,2. 3-6L,Salaried - Private,4. 10+ yrs,Karnataka,1,689,0.237,0,0.1075,1.16,0,0,0,0,0,Standard,31713.0
+122673,7126,2026-08-12,Business Loan,680000,2. 3-6L,Salaried - Private,1. < 2 yrs,Kerala,2,691,0.333,0,0.1235,1.34,0,0,0,1,1,Standard,104975.0
+122680,15037,2026-08-11,Education Loan,680000,3. 6-10L,Salaried - Private,1. < 2 yrs,Rajasthan,2,771,0.162,1,0.0589,0.64,0,0,0,1,1,Standard,50065.0
+122806,18194,2026-09-13,Auto Loan,285000,2. 3-6L,Self-Employed,3. 5-10 yrs,Delhi,1,773,0.413,0,0.0591,0.64,0,0,0,0,0,Fast-Track,16844.0
+122948,15169,2026-09-10,Business Loan,640000,3. 6-10L,Self-Employed,3. 5-10 yrs,Maharashtra,1,638,0.295,0,0.1266,1.37,0,0,0,0,0,Standard,81024.0
+122981,18652,2026-08-01,Home Loan,2465000,3. 6-10L,Salaried - Private,3. 5-10 yrs,Uttar Pradesh,3,671,0.597,1,0.041,0.44,0,1,0,0,1,Standard,126331.0
+123026,16899,2026-07-28,Personal Loan,230000,2. 3-6L,Salaried - Private,1. < 2 yrs,Punjab,2,684,0.467,0,0.1075,1.16,0,0,0,1,1,Standard,30906.0
+123036,6204,2026-09-09,Personal Loan,220000,3. 6-10L,Self-Employed,2. 2-5 yrs,Maharashtra,2,678,0.144,0,0.0914,0.99,0,0,0,0,0,Standard,20108.0
+123042,5255,2026-09-07,Personal Loan,255000,3. 6-10L,Salaried - Private,2. 2-5 yrs,Uttar Pradesh,2,815,0.4,0,0.0888,0.96,0,0,0,0,0,Standard,22644.0
+123046,11667,2026-08-12,Auto Loan,470000,3. 6-10L,Self-Employed,4. 10+ yrs,West Bengal,1,788,0.173,0,0.0516,0.56,0,0,0,0,0,Fast-Track,24252.0
+123094,10913,2026-09-08,Auto Loan,285000,2. 3-6L,Salaried - Private,4. 10+ yrs,Gujarat,2,686,0.458,0,0.0743,0.8,0,0,0,0,0,Standard,21176.0
+123109,4914,2026-08-12,Personal Loan,785000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Punjab,2,661,0.47,1,0.0584,0.63,0,0,0,0,0,Fast-Track,45844.0
+123118,13438,2026-09-05,Gold Loan,75000,2. 3-6L,Gig/Contract,2. 2-5 yrs,Karnataka,1,711,0.159,0,0.1142,1.24,0,0,0,0,0,Standard,8565.0
+123159,17871,2026-07-20,Personal Loan,205000,2. 3-6L,Salaried - Govt,4. 10+ yrs,Madhya Pradesh,2,782,0.247,0,0.0863,0.93,0,0,0,0,0,Standard,17692.0
+123188,7307,2026-09-10,Gold Loan,210000,4. 10-18L,Salaried - Private,3. 5-10 yrs,Maharashtra,1,663,0.402,0,0.0318,0.34,0,0,0,0,0,Fast-Track,6678.0
+123288,5999,2026-09-03,Home Loan,1250000,1. < 3L,Salaried - Private,3. 5-10 yrs,Rajasthan,2,700,0.463,0,0.1118,1.21,0,0,0,0,0,Standard,139750.0
+123323,13028,2026-08-18,Home Loan,7380000,5. 18L+,Salaried - Govt,1. < 2 yrs,Tamil Nadu,1,747,0.5,0,0.068,0.74,0,0,0,1,1,Standard,627300.0
+123375,5424,2026-08-04,Home Loan,1140000,2. 3-6L,Salaried - Private,2. 2-5 yrs,Maharashtra,1,690,0.433,0,0.0547,0.59,0,0,0,0,0,Fast-Track,62358.0
+123420,2868,2026-08-27,Personal Loan,300000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Telangana,1,733,0.327,0,0.1075,1.16,0,0,0,0,0,Standard,32250.0
+123529,12405,2026-08-08,Home Loan,2020000,2. 3-6L,Salaried - Private,4. 10+ yrs,Punjab,2,698,0.591,0,0.0547,0.59,0,1,0,0,1,Standard,138118.0
+123704,10491,2026-09-03,Personal Loan,250000,2. 3-6L,Salaried - Private,4. 10+ yrs,Karnataka,1,713,0.286,0,0.1075,1.16,0,0,0,0,0,Standard,26875.0
+123721,18515,2026-08-13,Home Loan,4195000,4. 10-18L,Salaried - Private,1. < 2 yrs,Delhi,1,657,0.696,0,0.0401,0.43,0,1,0,1,2,Standard,252329.0
+123733,7987,2026-07-19,Auto Loan,215000,1. < 3L,Salaried - Private,1. < 2 yrs,Odisha,2,611,0.526,1,0.1072,1.16,1,0,0,1,2,Manual Review,34572.0
+123773,1951,2026-08-23,Personal Loan,260000,2. 3-6L,Salaried - Private,3. 5-10 yrs,Odisha,2,554,0.262,1,0.1075,1.16,1,0,0,0,1,Standard,34938.0
+123784,36,2026-08-21,Auto Loan,290000,2. 3-6L,Salaried - Govt,2. 2-5 yrs,Maharashtra,2,735,0.438,0,0.0571,0.62,0,0,0,0,0,Fast-Track,16559.0
+123803,8979,2026-08-19,Home Loan,2110000,3. 6-10L,Self-Employed,3. 5-10 yrs,West Bengal,1,775,0.442,0,0.0672,0.73,0,0,0,0,0,Fast-Track,141792.0
+123905,4712,2026-08-03,Home Loan,750000,1. < 3L,Gig/Contract,4. 10+ yrs,Karnataka,1,547,0.383,0,0.1641,1.78,1,0,0,0,1,Standard,153844.0
+123938,15557,2026-07-30,Personal Loan,220000,2. 3-6L,Self-Employed,3. 5-10 yrs,Rajasthan,2,735,0.158,0,0.1301,1.41,0,0,0,0,0,Standard,28622.0
+123968,17315,2026-07-24,Gold Loan,115000,2. 3-6L,Salaried - Private,4. 10+ yrs,Tamil Nadu,2,768,0.328,0,0.0714,0.77,0,0,0,0,0,Fast-Track,8211.0
